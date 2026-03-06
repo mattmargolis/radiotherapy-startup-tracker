@@ -476,13 +476,31 @@ tbody td {
 
 .modal-link:hover { text-decoration: underline; }
 
-/* ── Disclaimer ── */
-.disclaimer {
-  font-size: 0.75rem;
+/* ── Disclaimer Banner ── */
+.disclaimer-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  background: rgba(250,204,21,0.06);
+  border: 1px solid rgba(250,204,21,0.2);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 0.78rem;
   color: var(--text-dim);
-  text-align: center;
-  padding: 1rem 0;
-  border-top: 1px solid var(--border);
+  line-height: 1.55;
+  margin-top: 1rem;
+}
+
+.disclaimer-icon {
+  color: #facc15;
+  font-size: 0.9rem;
+  flex-shrink: 0;
+  margin-top: 0.05rem;
+}
+
+.disclaimer-banner strong {
+  color: #facc15;
+  font-weight: 600;
 }
 
 /* ── Responsive ── */
