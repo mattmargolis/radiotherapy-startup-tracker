@@ -488,7 +488,7 @@ tbody td {
   font-size: 0.78rem;
   color: var(--text-dim);
   line-height: 1.55;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .disclaimer-icon {
