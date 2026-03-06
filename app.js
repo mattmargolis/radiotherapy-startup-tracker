@@ -1,7 +1,7 @@
 /* ── Radiotherapy Startup Tracker — app.js ── */
 
 const DATA_URL = 'data/companies.json';
-const LAST_UPDATED = '2026-03-05';
+const META_URL = 'data/meta.json';
 
 let allCompanies = [];
 let filtered = [];
@@ -393,9 +393,22 @@ document.addEventListener('keydown', (e) => {
 
 // ── Init ──────────────────────────────────────────────────────────────────────
 
+async function loadMeta() {
+  try {
+    const res = await fetch(META_URL);
+    const meta = await res.json();
+    document.getElementById('status-last-updated').textContent = meta.last_updated || '—';
+    document.getElementById('status-last-scout').textContent = meta.last_scout_run || 'Never';
+    document.getElementById('status-search-window').textContent = meta.search_window || '—';
+    document.getElementById('status-refresh').textContent = meta.refresh_command || '—';
+    document.getElementById('disclaimer-date').textContent = meta.last_updated || '—';
+  } catch {
+    // meta.json missing or malformed — leave defaults
+  }
+}
+
 async function init() {
-  document.getElementById('last-updated').textContent = `Updated: ${LAST_UPDATED}`;
-  document.getElementById('disclaimer-date').textContent = LAST_UPDATED;
+  await loadMeta();
 
   const res = await fetch(DATA_URL);
   allCompanies = await res.json();

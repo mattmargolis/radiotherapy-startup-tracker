@@ -13,6 +13,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 COMPANIES_FILE = ROOT / "data" / "companies.json"
+META_FILE = ROOT / "data" / "meta.json"
 REPORT_FILE = ROOT / "scripts" / "scout_report.md"
 
 SEARCH_TERMS = [
@@ -212,6 +213,15 @@ def main():
 
     REPORT_FILE.write_text("\n".join(lines))
     print(f"\nReport written to {REPORT_FILE}")
+
+    # Update meta.json with last scout run timestamp
+    try:
+        meta = json.loads(META_FILE.read_text()) if META_FILE.exists() else {}
+        meta["last_scout_run"] = datetime.now().strftime("%Y-%m-%d %H:%M UTC")
+        META_FILE.write_text(json.dumps(meta, indent=2))
+        print(f"Updated {META_FILE}")
+    except Exception as e:
+        print(f"Warning: could not update meta.json: {e}")
 
 
 if __name__ == "__main__":

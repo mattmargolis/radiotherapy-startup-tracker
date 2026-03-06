@@ -67,21 +67,43 @@ h1 {
   color: var(--text);
 }
 
-.header-meta {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  color: var(--text-dim);
-  font-size: 0.8rem;
-}
-
-.header-badge {
+/* ── Status Panel ── */
+.status-panel {
   background: var(--bg3);
   border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 0.25rem 0.75rem;
-  font-size: 0.75rem;
+  border-radius: var(--radius);
+  padding: 0.5rem 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.18rem;
+  min-width: 300px;
+}
+
+.status-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.status-label {
   color: var(--text-dim);
+  font-weight: 500;
+  white-space: nowrap;
+  min-width: 110px;
+  flex-shrink: 0;
+}
+
+.status-value {
+  color: var(--text);
+  font-weight: 400;
+}
+
+.status-code {
+  font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
+  font-size: 0.74rem;
+  color: var(--accent2);
 }
 
 /* ── Main ── */
