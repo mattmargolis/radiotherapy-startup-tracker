@@ -1,7 +1,7 @@
 /* ── Radiotherapy Startup Tracker — app.js ── */
 
 const DATA_URL = 'data/companies.json';
-const LAST_UPDATED = '2025-03-05';
+const LAST_UPDATED = '2026-03-05';
 
 let allCompanies = [];
 let filtered = [];
