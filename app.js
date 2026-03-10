@@ -393,6 +393,171 @@ document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') document.getElementById('modal-overlay').classList.add('hidden');
 });
 
+// ── M&A Deal Flow ────────────────────────────────────────────────────────
+
+const DEALS = [
+  { date: '2025-11', acquirer: 'CapVest Partners', target: 'Curium Pharma', value: '~$7.0B', type: 'recap', context: 'Largest transaction in nuclear medicine globally. Recapitalization to accelerate growth.' },
+  { date: '2024-01', acquirer: 'Bristol Myers Squibb', target: 'RayzeBio', value: '$4.1B', type: 'acquisition', context: 'Ac-225 targeted alpha therapy platform for solid tumors.' },
+  { date: '2024-03', acquirer: 'AstraZeneca', target: 'Fusion Pharmaceuticals', value: '$2.4B', type: 'acquisition', context: 'Ac-225 radioimmunotherapy; PSMA + EGFR/cMET pipeline.' },
+  { date: '2023-10', acquirer: 'Eli Lilly', target: 'POINT Biopharma', value: '$1.4B', type: 'acquisition', context: 'Lu-177 PSMA therapy for mCRPC. PNT2002 since deprioritized.' },
+  { date: '2024-09', acquirer: 'Novartis', target: 'Mariana Oncology', value: '$1.0B+', type: 'acquisition', context: 'Ac-225 TAT for SCLC. $1B upfront + $750M milestones.' },
+  { date: '2025-06', acquirer: 'BMS/RayzeBio', target: 'Philochem (license)', value: '$1.0B+', type: 'partnership', context: '$350M upfront + $1B+ milestones for OncoACP3 prostate cancer program.' },
+  { date: '2024-06', acquirer: 'Eli Lilly', target: 'Radionetics Oncology', value: '$1.0B+', type: 'partnership', context: '$140M upfront + $1B acquisition option. GPCR-targeted RLT.' },
+  { date: '2024-01', acquirer: 'Eli Lilly', target: 'Aktis Oncology', value: '$1.1B+', type: 'partnership', context: '$60M upfront + $1.1B milestones. Mini-protein RLT platform.' },
+  { date: '2026-01', acquirer: 'Aktis Oncology', target: 'IPO (NASDAQ: AKTS)', value: '$318M', type: 'ipo', context: 'First biotech IPO of 2026. Lilly purchased $100M of shares.' },
+  { date: '2024-09', acquirer: 'Sanofi', target: 'RadioMedix (AlphaMedix)', value: 'Undisclosed', type: 'partnership', context: 'Exclusive global license for 212Pb-DOTAMTATE for NETs. Entering Phase III.' },
+];
+
+function renderDealFlow() {
+  const summary = document.getElementById('deal-flow-summary');
+  const timeline = document.getElementById('deal-timeline');
+
+  // Summary KPIs
+  const totalAcqValue = [4.1, 2.4, 1.4, 1.0]; // B, known acquisition values
+  const totalDealCount = DEALS.length;
+  const acquirerSet = new Set(DEALS.filter(d => d.type === 'acquisition').map(d => d.acquirer));
+
+  summary.innerHTML = `
+    <div class="deal-summary-card">
+      <div class="deal-summary-value" style="color:var(--accent4)">$${totalAcqValue.reduce((a, b) => a + b, 0).toFixed(1)}B+</div>
+      <div class="deal-summary-label">Acquisition Value (2023-2026)</div>
+    </div>
+    <div class="deal-summary-card">
+      <div class="deal-summary-value" style="color:var(--accent)">${totalDealCount}</div>
+      <div class="deal-summary-label">Major Transactions</div>
+    </div>
+    <div class="deal-summary-card">
+      <div class="deal-summary-value" style="color:var(--accent2)">${acquirerSet.size}</div>
+      <div class="deal-summary-label">Strategic Acquirers</div>
+    </div>
+  `;
+
+  // Timeline rows
+  const typeLabel = { acquisition: 'Acquisition', partnership: 'Partnership', recap: 'Recap', ipo: 'IPO' };
+  const typeClass = { acquisition: 'deal-type-acquisition', partnership: 'deal-type-partnership', recap: 'deal-type-recap', ipo: 'deal-type-ipo' };
+
+  const sorted = [...DEALS].sort((a, b) => b.date.localeCompare(a.date));
+
+  timeline.innerHTML = `
+    <div class="deal-timeline-header">
+      <div>Date</div>
+      <div>Transaction</div>
+      <div>Type</div>
+      <div>Value</div>
+      <div>Context</div>
+    </div>
+    ${sorted.map(d => `
+      <div class="deal-row">
+        <div class="deal-date">${d.date}</div>
+        <div class="deal-parties">
+          <span class="deal-acquirer">${d.acquirer}</span>
+          <span class="deal-arrow">&rarr;</span>
+          <span class="deal-target">${d.target}</span>
+        </div>
+        <div><span class="deal-type-tag ${typeClass[d.type]}">${typeLabel[d.type]}</span></div>
+        <div class="deal-value">${d.value}</div>
+        <div class="deal-context">${d.context}</div>
+      </div>
+    `).join('')}
+  `;
+}
+
+// ── Competitive Landscape Matrix ─────────────────────────────────────────
+
+const LANDSCAPE_DATA = [
+  // { company, target, isotope, stage }
+  // PSMA
+  { company: 'RayzeBio', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase III' },
+  { company: 'Fusion Pharma', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase II' },
+  { company: 'POINT Biopharma', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase III' },
+  { company: 'Curium', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase I/II' },
+  { company: 'Telix', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase III' },
+  { company: 'Clarity', target: 'PSMA', isotope: 'Cu-67', stage: 'Phase II' },
+  { company: 'Clarity', target: 'PSMA', isotope: 'Cu-64', stage: 'Phase III' },
+  { company: 'Lantheus', target: 'PSMA', isotope: 'F-18', stage: 'Commercial' },
+  { company: 'Convergent', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase I/II' },
+  { company: 'ARTBIO', target: 'PSMA', isotope: 'Pb-212', stage: 'Phase I' },
+  // SSTR2 / Somatostatin
+  { company: 'ITM', target: 'SSTR2', isotope: 'Lu-177', stage: 'NDA Filed' },
+  { company: 'RayzeBio', target: 'SSTR2', isotope: 'Ac-225', stage: 'Phase III' },
+  { company: 'RadioMedix', target: 'SSTR2', isotope: 'Pb-212', stage: 'Phase III' },
+  { company: 'Perspective', target: 'SSTR2', isotope: 'Pb-212', stage: 'Phase I/II' },
+  { company: 'Clarity', target: 'SSTR2', isotope: 'Cu-64', stage: 'Phase III' },
+  // FAP
+  { company: 'Ratio', target: 'FAP', isotope: 'Lu-177', stage: 'Phase I' },
+  { company: 'Precirix', target: 'FAP', isotope: 'Ac-225', stage: 'Phase I' },
+  { company: 'Perspective', target: 'FAP', isotope: 'Pb-212', stage: 'Phase I' },
+  { company: 'POINT Biopharma', target: 'FAP', isotope: 'Lu-177', stage: 'Phase I' },
+  { company: 'Actithera', target: 'FAP', isotope: 'Lu-177', stage: 'Preclinical' },
+  // HER2
+  { company: 'Precirix', target: 'HER2', isotope: 'Lu-177', stage: 'Phase I/II' },
+  { company: 'Aktis', target: 'HER2', isotope: 'Lu-177', stage: 'Preclinical' },
+  // Nectin-4
+  { company: 'Aktis', target: 'Nectin-4', isotope: 'Lu-177', stage: 'Phase Ib' },
+  // B7-H3
+  { company: 'Aktis', target: 'B7-H3', isotope: 'Lu-177', stage: 'Preclinical' },
+  // DLL3
+  { company: 'Orano Med', target: 'DLL3', isotope: 'Pb-212', stage: 'Preclinical' },
+  { company: 'Mariana', target: 'DLL3', isotope: 'Ac-225', stage: 'Preclinical' },
+  // CAIX
+  { company: 'Telix', target: 'CAIX', isotope: 'Zr-89', stage: 'Phase II' },
+  // Lipid Raft
+  { company: 'Cellectar', target: 'Lipid Raft', isotope: 'I-131', stage: 'Phase II' },
+  // GPCR
+  { company: 'Radionetics', target: 'GPCR', isotope: 'Lu-177', stage: 'Preclinical' },
+  // Intratumoral
+  { company: 'Alpha Tau', target: 'Intratumoral', isotope: 'Ra-224', stage: 'Phase I/II' },
+];
+
+function renderLandscapeMatrix() {
+  const table = document.getElementById('landscape-table');
+
+  // Collect unique targets and isotopes
+  const targets = [...new Set(LANDSCAPE_DATA.map(d => d.target))];
+  const isotopes = [...new Set(LANDSCAPE_DATA.map(d => d.isotope))];
+
+  // Order isotopes logically
+  const isotopeOrder = ['Lu-177', 'Ac-225', 'Pb-212', 'Cu-67', 'Cu-64', 'I-131', 'F-18', 'Zr-89', 'Ra-224'];
+  isotopes.sort((a, b) => {
+    const ia = isotopeOrder.indexOf(a), ib = isotopeOrder.indexOf(b);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+
+  // Determine chip class
+  function chipClass(stage) {
+    const s = stage.toLowerCase();
+    if (s.includes('commercial') || s.includes('nda')) return 'landscape-chip-commercial';
+    if (s.includes('preclinical')) return 'landscape-chip-preclinical';
+    if (s.includes('acquired')) return 'landscape-chip-acquired';
+    return 'landscape-chip-clinical';
+  }
+
+  // Build table
+  let html = '<thead><tr><th>Target \\ Isotope</th>';
+  isotopes.forEach(iso => { html += `<th>${iso}</th>`; });
+  html += '</tr></thead><tbody>';
+
+  targets.forEach(target => {
+    html += `<tr><td>${target}</td>`;
+    isotopes.forEach(iso => {
+      const entries = LANDSCAPE_DATA.filter(d => d.target === target && d.isotope === iso);
+      if (entries.length === 0) {
+        html += '<td><span class="landscape-empty">&mdash;</span></td>';
+      } else {
+        html += '<td><div class="landscape-cell">';
+        entries.forEach(e => {
+          html += `<span class="landscape-chip ${chipClass(e.stage)}" title="${e.stage}">${e.company}</span>`;
+        });
+        html += '</div></td>';
+      }
+    });
+    html += '</tr>';
+  });
+
+  html += '</tbody>';
+  table.innerHTML = html;
+}
+
 // ── Init ──────────────────────────────────────────────────────────────────────
 
 async function loadMeta() {
@@ -422,6 +587,8 @@ async function init() {
 
   updateKPIs(filtered);
   updateCharts(filtered);
+  renderDealFlow();
+  renderLandscapeMatrix();
   renderTable(sortData(filtered));
 }
 
