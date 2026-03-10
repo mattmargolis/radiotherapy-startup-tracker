@@ -225,8 +225,8 @@ function renderTable(data) {
       <td class="cell-name">
         <a href="${c.website}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${c.name}</a>
       </td>
-      <td>${fmt(c.hq)}</td>
-      <td>${fmt(c.founded)}</td>
+      <td class="cell-hq">${fmt(c.hq)}</td>
+      <td class="cell-founded">${fmt(c.founded)}</td>
       <td>${modalityTag(c.modality)}</td>
       <td style="max-width:180px;font-size:0.78rem;color:var(--text-dim)">${fmt(c.technology)}</td>
       <td style="max-width:180px;font-size:0.78rem;color:var(--text-dim)">${fmt(c.indication)}</td>
@@ -235,7 +235,10 @@ function renderTable(data) {
       <td>${fmtFunding(c.total_funding_usd_m)}</td>
       <td>${listCells(c.key_investors)}</td>
       <td>${listCells(c.pipeline)}</td>
-      <td class="cell-notes">${fmt(c.notes)}</td>
+      <td class="cell-notes">
+        <div class="cell-notes-text">${c.notes || '—'}</div>
+        ${c.notes ? `<div class="cell-notes-popover">${c.notes}</div>` : ''}
+      </td>
     </tr>
   `).join('');
 
@@ -317,6 +320,32 @@ document.getElementById('btn-reset').addEventListener('click', () => {
   document.getElementById('filter-stage').value = '';
   document.getElementById('filter-funding').value = '';
   applyFilters();
+});
+
+// ── Export CSV ──────────────────────────────────────────────────────────────
+
+document.getElementById('btn-export').addEventListener('click', () => {
+  const cols = ['name','hq','founded','modality','technology','indication','stage',
+                'funding_stage','total_funding_usd_m','key_investors','pipeline','notes'];
+  const headers = ['Company','HQ','Founded','Modality','Technology','Indication',
+                   'Dev Stage','Funding Stage','Total Raised ($M)','Key Investors','Pipeline','Notes'];
+  const esc = v => {
+    if (v === null || v === undefined) return '';
+    const s = Array.isArray(v) ? v.join('; ') : String(v);
+    return s.includes(',') || s.includes('"') || s.includes('\n')
+      ? '"' + s.replace(/"/g, '""') + '"' : s;
+  };
+  const rows = [headers.join(',')];
+  (filtered.length ? filtered : allCompanies).forEach(c => {
+    rows.push(cols.map(col => esc(c[col])).join(','));
+  });
+  const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'radiotherapy_companies.csv';
+  a.click();
+  URL.revokeObjectURL(url);
 });
 
 // ── Modal ─────────────────────────────────────────────────────────────────────
@@ -571,6 +600,8 @@ async function loadMeta() {
     document.getElementById('status-search-window').textContent = meta.search_window || '—';
     document.getElementById('status-refresh').textContent = meta.refresh_command || '—';
     document.getElementById('disclaimer-date').textContent = meta.last_updated || '—';
+    const footerDate = document.getElementById('footer-date');
+    if (footerDate) footerDate.textContent = meta.last_updated || '—';
   } catch {
     // meta.json missing or malformed — leave defaults
   }

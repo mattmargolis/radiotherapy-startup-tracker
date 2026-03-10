@@ -24,7 +24,7 @@ html { font-size: 14px; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  font-family: 'DM Mono', 'Consolas', 'Fira Code', monospace;
   min-height: 100vh;
   line-height: 1.5;
 }
@@ -61,9 +61,10 @@ header {
 }
 
 h1 {
+  font-family: 'Syne', 'Inter', system-ui, sans-serif;
   font-size: 1.35rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 800;
+  letter-spacing: -0.03em;
   color: var(--text);
 }
 
@@ -116,7 +117,7 @@ main {
 /* ── KPI Row ── */
 .kpi-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -124,13 +125,19 @@ main {
 .kpi-card {
   background: var(--bg2);
   border: 1px solid var(--border);
+  border-bottom: 2px solid var(--accent);
   border-radius: var(--radius);
   padding: 1.25rem 1.5rem;
   text-align: center;
   box-shadow: var(--shadow);
 }
 
+.kpi-card:nth-child(2) { border-bottom-color: var(--accent2); }
+.kpi-card:nth-child(3) { border-bottom-color: var(--accent3); }
+.kpi-card:nth-child(4) { border-bottom-color: var(--accent4); }
+
 .kpi-value {
+  font-family: 'Syne', 'Inter', system-ui, sans-serif;
   font-size: 2rem;
   font-weight: 800;
   color: var(--accent);
@@ -142,11 +149,11 @@ main {
 .kpi-card:nth-child(4) .kpi-value { color: var(--accent4); }
 
 .kpi-label {
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--text-dim);
   margin-top: 0.3rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 /* ── Charts Row ── */
@@ -227,20 +234,35 @@ main {
   background: var(--bg3);
 }
 
-#btn-reset {
+.filter-right {
+  margin-left: auto;
+}
+
+#btn-reset,
+#btn-export {
   background: var(--bg3);
   border: 1px solid var(--border);
   border-radius: 6px;
   color: var(--text-dim);
   padding: 0.45rem 1rem;
+  font-family: inherit;
   font-size: 0.85rem;
   cursor: pointer;
-  transition: border-color 0.2s, color 0.2s;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
 #btn-reset:hover {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+#btn-export {
+  border-color: var(--accent2);
+  color: var(--accent2);
+}
+
+#btn-export:hover {
+  background: rgba(56,217,169,0.1);
 }
 
 /* ── Table ── */
@@ -373,11 +395,55 @@ main {
   line-height: 1.3;
 }
 
+/* Color-coded cells */
+.cell-hq {
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.cell-founded {
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+/* Notes popover */
 .cell-notes {
   font-size: 0.78rem;
   color: var(--text-dim);
   line-height: 1.4;
   max-width: 260px;
+  position: relative;
+}
+
+.cell-notes-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  cursor: default;
+}
+
+.cell-notes-popover {
+  display: none;
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 0;
+  width: 340px;
+  max-width: 50vw;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.75rem 1rem;
+  font-size: 0.78rem;
+  color: var(--text);
+  line-height: 1.55;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+  z-index: 50;
+  pointer-events: none;
+}
+
+.cell-notes:hover .cell-notes-popover {
+  display: block;
 }
 
 .funding-value {
@@ -509,10 +575,11 @@ main {
 }
 
 .section-header h2 {
+  font-family: 'Syne', 'Inter', system-ui, sans-serif;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--text);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
 }
 
 .section-subtitle {
@@ -854,6 +921,35 @@ footer {
 .footer-sep {
   color: var(--text-dim);
   margin: 0 0.3rem;
+}
+
+.footer-status {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--success);
+  animation: pulse 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.footer-status-text {
+  font-size: 0.72rem;
+  color: var(--text-dim);
+}
+
+.footer-title {
+  font-family: 'Syne', 'Inter', system-ui, sans-serif;
 }
 
 /* ── Responsive ── */
