@@ -69,45 +69,6 @@ h1 {
   color: var(--text);
 }
 
-/* ── Status Panel ── */
-.status-panel {
-  background: var(--bg3);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 0.5rem 0.9rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.18rem;
-  min-width: 300px;
-}
-
-.status-row {
-  display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
-  font-size: 0.78rem;
-  line-height: 1.5;
-}
-
-.status-label {
-  color: var(--text-dim);
-  font-weight: 500;
-  white-space: nowrap;
-  min-width: 110px;
-  flex-shrink: 0;
-}
-
-.status-value {
-  color: var(--text);
-  font-weight: 400;
-}
-
-.status-code {
-  font-family: 'Consolas', 'Fira Code', 'Courier New', monospace;
-  font-size: 0.74rem;
-  color: var(--accent);
-}
-
 /* ── Main ── */
 main {
   max-width: 1600px;
@@ -966,7 +927,6 @@ footer {
   main { padding: 1rem; }
   header { padding: 1rem; }
   .header-inner { flex-direction: column; align-items: flex-start; }
-  .status-panel { min-width: unset; width: 100%; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-meta { text-align: center; }
   .section-header h2 { font-size: 1rem; }

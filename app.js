@@ -597,10 +597,6 @@ async function loadMeta() {
   try {
     const res = await fetch(META_URL);
     const meta = await res.json();
-    document.getElementById('status-last-updated').textContent = meta.last_updated || '—';
-    document.getElementById('status-last-scout').textContent = meta.last_scout_run || 'Never';
-    document.getElementById('status-search-window').textContent = meta.search_window || '—';
-    document.getElementById('status-refresh').textContent = meta.refresh_command || '—';
     document.getElementById('disclaimer-date').textContent = meta.last_updated || '—';
     const footerDate = document.getElementById('footer-date');
     if (footerDate) footerDate.textContent = meta.last_updated || '—';
