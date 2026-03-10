@@ -98,7 +98,7 @@ function updateKPIs(data) {
 
 // ── Charts ───────────────────────────────────────────────────────────────────
 
-const CHART_COLORS = ['#4f8ef7','#fb7185','#38d9a9','#c084fc','#f77c4f','#facc15','#94a3b8','#34d399','#f472b6'];
+const CHART_COLORS = ['#22d3c5','#f0b35a','#ef6b6b','#8b7cf6','#5ba8f5','#e8b84b','#6b7f99','#34d399','#f472b6'];
 
 let chartInstances = {};
 
@@ -123,7 +123,7 @@ function makeChart(id, type, labels, values, colors) {
       datasets: [{
         data: values,
         backgroundColor: colors || CHART_COLORS,
-        borderColor: '#0a0d14',
+        borderColor: '#0c1017',
         borderWidth: 2,
       }]
     },
@@ -134,28 +134,30 @@ function makeChart(id, type, labels, values, colors) {
           display: type === 'doughnut',
           position: 'bottom',
           labels: {
-            color: '#7888a8',
-            font: { size: 11 },
+            color: '#6b7f99',
+            font: { size: 11, family: 'Inter' },
             boxWidth: 12,
             padding: 10,
           }
         },
         tooltip: {
-          backgroundColor: '#181d2e',
-          borderColor: '#232840',
+          backgroundColor: '#1b2433',
+          borderColor: '#263044',
           borderWidth: 1,
-          titleColor: '#e2e8f0',
-          bodyColor: '#7888a8',
+          titleColor: '#dfe6ed',
+          bodyColor: '#6b7f99',
+          titleFont: { family: 'Inter' },
+          bodyFont: { family: 'Inter' },
         }
       },
       scales: type === 'bar' ? {
         x: {
-          ticks: { color: '#7888a8', font: { size: 10 } },
-          grid: { color: '#232840' }
+          ticks: { color: '#6b7f99', font: { size: 10, family: 'Inter' } },
+          grid: { color: '#263044' }
         },
         y: {
-          ticks: { color: '#7888a8', font: { size: 10 } },
-          grid: { color: '#232840' },
+          ticks: { color: '#6b7f99', font: { size: 10, family: 'Inter' } },
+          grid: { color: '#263044' },
           beginAtZero: true,
           precision: 0,
         }
