@@ -98,7 +98,7 @@ function updateKPIs(data) {
 
 // ── Charts ───────────────────────────────────────────────────────────────────
 
-const CHART_COLORS = ['#22d3c5','#f0b35a','#ef6b6b','#8b7cf6','#5ba8f5','#e8b84b','#6b7f99','#34d399','#f472b6'];
+const CHART_COLORS = ['#0e9e94','#d48a1a','#d44a4a','#6a5acd','#3182ce','#b07d15','#6b7a8d','#10b981','#e0579a'];
 
 let chartInstances = {};
 
@@ -123,7 +123,7 @@ function makeChart(id, type, labels, values, colors) {
       datasets: [{
         data: values,
         backgroundColor: colors || CHART_COLORS,
-        borderColor: '#0c1017',
+        borderColor: '#ffffff',
         borderWidth: 2,
       }]
     },
@@ -134,30 +134,30 @@ function makeChart(id, type, labels, values, colors) {
           display: type === 'doughnut',
           position: 'bottom',
           labels: {
-            color: '#6b7f99',
+            color: '#6b7a8d',
             font: { size: 11, family: 'Inter' },
             boxWidth: 12,
             padding: 10,
           }
         },
         tooltip: {
-          backgroundColor: '#1b2433',
-          borderColor: '#263044',
+          backgroundColor: '#1a2332',
+          borderColor: '#2a3a4d',
           borderWidth: 1,
-          titleColor: '#dfe6ed',
-          bodyColor: '#6b7f99',
+          titleColor: '#ffffff',
+          bodyColor: '#c0c8d4',
           titleFont: { family: 'Inter' },
           bodyFont: { family: 'Inter' },
         }
       },
       scales: type === 'bar' ? {
         x: {
-          ticks: { color: '#6b7f99', font: { size: 10, family: 'Inter' } },
-          grid: { color: '#263044' }
+          ticks: { color: '#6b7a8d', font: { size: 10, family: 'Inter' } },
+          grid: { color: '#e5e8ed' }
         },
         y: {
-          ticks: { color: '#6b7f99', font: { size: 10, family: 'Inter' } },
-          grid: { color: '#263044' },
+          ticks: { color: '#6b7a8d', font: { size: 10, family: 'Inter' } },
+          grid: { color: '#e5e8ed' },
           beginAtZero: true,
           precision: 0,
         }
