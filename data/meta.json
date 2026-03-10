@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-05",
+  "last_updated": "2026-03-10",
   "last_scout_run": null,
-  "search_window": "ClinicalTrials.gov \u00b7 30-day lookback",
+  "search_window": "ClinicalTrials.gov · 30-day lookback",
   "refresh_command": "python scripts/scout.py"
 }

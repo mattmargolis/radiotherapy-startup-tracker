@@ -64,9 +64,11 @@ function hqRegion(hq) {
   if (lower.includes('australia')) return 'Australia';
   if (lower.includes('israel')) return 'Israel';
   if (lower.includes('uk') || lower.includes('united kingdom')) return 'UK';
-  if (lower.includes('germany') || lower.includes('france') || lower.includes('switzerland')) return 'Europe';
+  if (lower.includes('germany') || lower.includes('france') || lower.includes('switzerland') ||
+      lower.includes('belgium') || lower.includes('austria')) return 'Europe';
   // US states
-  const usStates = [', ca', ', ma', ', ny', ', tx', ', mn', ', nc', ', mo', ', wa', ', fl', ', pa', ', nj', ', oh'];
+  const usStates = [', ca', ', ma', ', ny', ', tx', ', mn', ', nc', ', mo', ', wa', ', fl',
+                     ', pa', ', nj', ', oh', ', wi', ', in', ', va', ', md'];
   if (usStates.some(s => lower.endsWith(s))) return 'USA';
   return 'Other';
 }
