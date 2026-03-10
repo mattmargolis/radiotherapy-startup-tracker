@@ -439,26 +439,28 @@ function renderDealFlow() {
   const sorted = [...DEALS].sort((a, b) => b.date.localeCompare(a.date));
 
   timeline.innerHTML = `
-    <div class="deal-timeline-header">
-      <div>Date</div>
-      <div>Transaction</div>
-      <div>Type</div>
-      <div>Value</div>
-      <div>Context</div>
-    </div>
-    ${sorted.map(d => `
-      <div class="deal-row">
-        <div class="deal-date">${d.date}</div>
-        <div class="deal-parties">
-          <span class="deal-acquirer">${d.acquirer}</span>
-          <span class="deal-arrow">&rarr;</span>
-          <span class="deal-target">${d.target}</span>
-        </div>
-        <div><span class="deal-type-tag ${typeClass[d.type]}">${typeLabel[d.type]}</span></div>
-        <div class="deal-value">${d.value}</div>
-        <div class="deal-context">${d.context}</div>
+    <div class="deal-timeline-inner">
+      <div class="deal-timeline-header">
+        <div>Date</div>
+        <div>Transaction</div>
+        <div>Type</div>
+        <div>Value</div>
+        <div>Context</div>
       </div>
-    `).join('')}
+      ${sorted.map(d => `
+        <div class="deal-row">
+          <div class="deal-date">${d.date}</div>
+          <div class="deal-parties">
+            <span class="deal-acquirer">${d.acquirer}</span>
+            <span class="deal-arrow">&rarr;</span>
+            <span class="deal-target">${d.target}</span>
+          </div>
+          <div><span class="deal-type-tag ${typeClass[d.type]}">${typeLabel[d.type]}</span></div>
+          <div class="deal-value">${d.value}</div>
+          <div class="deal-context">${d.context}</div>
+        </div>
+      `).join('')}
+    </div>
   `;
 }
 

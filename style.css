@@ -264,13 +264,13 @@ main {
   overflow-x: auto;
 }
 
-table {
+#companies-table {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.82rem;
 }
 
-thead th {
+#companies-table thead th {
   background: var(--bg3);
   color: var(--text-dim);
   font-weight: 600;
@@ -285,31 +285,31 @@ thead th {
   top: 0;
 }
 
-thead th.sortable {
+#companies-table thead th.sortable {
   cursor: pointer;
   user-select: none;
 }
 
-thead th.sortable:hover {
+#companies-table thead th.sortable:hover {
   color: var(--accent);
 }
 
-thead th.sort-asc .sort-icon::after { content: ' ↑'; }
-thead th.sort-desc .sort-icon::after { content: ' ↓'; }
+#companies-table thead th.sort-asc .sort-icon::after { content: ' ↑'; }
+#companies-table thead th.sort-desc .sort-icon::after { content: ' ↓'; }
 
-tbody tr {
+#companies-table tbody tr {
   border-bottom: 1px solid var(--border);
   transition: background 0.15s;
   cursor: pointer;
 }
 
-tbody tr:last-child { border-bottom: none; }
+#companies-table tbody tr:last-child { border-bottom: none; }
 
-tbody tr:hover {
+#companies-table tbody tr:hover {
   background: var(--bg3);
 }
 
-tbody td {
+#companies-table tbody td {
   padding: 0.7rem 1rem;
   vertical-align: top;
   max-width: 220px;
@@ -564,10 +564,14 @@ tbody td {
   box-shadow: var(--shadow);
 }
 
+.deal-timeline-inner {
+  overflow-x: auto;
+}
+
 .deal-timeline-header {
   display: grid;
-  grid-template-columns: 100px 1fr 140px 200px 1fr;
-  gap: 1rem;
+  grid-template-columns: 80px 1.4fr 100px 100px 1.2fr;
+  gap: 0.75rem;
   padding: 0.7rem 1.25rem;
   background: var(--bg3);
   border-bottom: 1px solid var(--border);
@@ -576,16 +580,18 @@ tbody td {
   color: var(--text-dim);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  min-width: 700px;
 }
 
 .deal-row {
   display: grid;
-  grid-template-columns: 100px 1fr 140px 200px 1fr;
-  gap: 1rem;
+  grid-template-columns: 80px 1.4fr 100px 100px 1.2fr;
+  gap: 0.75rem;
   padding: 0.85rem 1.25rem;
   border-bottom: 1px solid var(--border);
   align-items: center;
   transition: background 0.15s;
+  min-width: 700px;
 }
 
 .deal-row:last-child { border-bottom: none; }
@@ -668,7 +674,12 @@ tbody td {
 }
 
 .landscape-wrapper {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
   overflow-x: auto;
+  overflow-y: hidden;
+  box-shadow: var(--shadow);
 }
 
 .landscape-table {
@@ -676,10 +687,6 @@ tbody td {
   border-collapse: collapse;
   font-size: 0.78rem;
   background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  overflow: hidden;
-  box-shadow: var(--shadow);
 }
 
 .landscape-table th {
@@ -693,6 +700,7 @@ tbody td {
   text-align: center;
   border: 1px solid var(--border);
   white-space: nowrap;
+  position: static;
 }
 
 .landscape-table th:first-child {
@@ -703,9 +711,17 @@ tbody td {
 .landscape-table td {
   padding: 0.5rem 0.6rem;
   border: 1px solid var(--border);
-  vertical-align: top;
+  vertical-align: middle;
   text-align: center;
   min-width: 110px;
+}
+
+.landscape-table tbody tr {
+  cursor: default;
+}
+
+.landscape-table tbody tr:hover {
+  background: rgba(79,142,247,0.04);
 }
 
 .landscape-table td:first-child {
@@ -717,6 +733,9 @@ tbody td {
   letter-spacing: 0.04em;
   text-align: left;
   white-space: nowrap;
+  position: sticky;
+  left: 0;
+  z-index: 1;
 }
 
 .landscape-cell {
@@ -840,7 +859,6 @@ footer {
 /* ── Responsive ── */
 @media (max-width: 1100px) {
   .charts-row { grid-template-columns: repeat(2, 1fr); }
-  .deal-flow-summary { grid-template-columns: repeat(3, 1fr); }
 }
 
 @media (max-width: 700px) {
@@ -848,6 +866,10 @@ footer {
   .charts-row { grid-template-columns: 1fr; }
   .deal-flow-summary { grid-template-columns: 1fr; }
   main { padding: 1rem; }
+  header { padding: 1rem; }
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .status-panel { min-width: unset; width: 100%; }
   .footer-inner { flex-direction: column; text-align: center; }
   .footer-meta { text-align: center; }
+  .section-header h2 { font-size: 1rem; }
 }
