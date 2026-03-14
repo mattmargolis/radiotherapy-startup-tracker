@@ -35,10 +35,12 @@ function modalityTag(m) {
 
 function stageTag(s) {
   const map = {
-    'Commercial':        'tag-commercial',
-    'Clinical Phase III':'tag-phase3',
-    'Clinical Phase I/II':'tag-phase12',
-    'Pre-clinical':      'tag-preclin',
+    'Commercial':          'tag-commercial',
+    'Clinical Phase III':  'tag-phase3',
+    'Clinical Phase II/III':'tag-phase3',
+    'Clinical Phase I/II': 'tag-phase12',
+    'Clinical Phase I':    'tag-phase12',
+    'Pre-clinical':        'tag-preclin',
   };
   const cls = map[s] || 'tag-other';
   return `<span class="tag ${cls}">${s || '—'}</span>`;
@@ -57,25 +59,24 @@ function fundingTag(f) {
   return `<span class="tag ${cls}">${f || '—'}</span>`;
 }
 
-function hqRegion(hq) {
-  if (!hq) return 'Other';
-  const lower = hq.toLowerCase();
-  if (lower.includes('canada') || lower.includes('ontario')) return 'Canada';
-  if (lower.includes('australia')) return 'Australia';
-  if (lower.includes('israel')) return 'Israel';
-  if (lower.includes('uk') || lower.includes('united kingdom')) return 'UK';
-  if (lower.includes('germany') || lower.includes('france') || lower.includes('switzerland') ||
-      lower.includes('belgium') || lower.includes('austria')) return 'Europe';
-  // US states
-  const usStates = [', ca', ', ma', ', ny', ', tx', ', mn', ', nc', ', mo', ', wa', ', fl',
-                     ', pa', ', nj', ', oh', ', wi', ', in', ', va', ', md'];
-  if (usStates.some(s => lower.endsWith(s))) return 'USA';
-  return 'Other';
+function regionTag(r) {
+  const map = {
+    'US-Canada':      'tag-region-us',
+    'EU-Middle East': 'tag-region-eu',
+    'Aus-Asia':       'tag-region-asia',
+  };
+  const cls = map[r] || 'tag-other';
+  return `<span class="tag ${cls}">${r || '—'}</span>`;
 }
 
 function listCells(arr) {
   if (!arr || !arr.length) return '<span style="color:var(--text-dim)">—</span>';
   return `<div class="cell-list">${arr.map(i => `<span class="cell-list-item">${i}</span>`).join('')}</div>`;
+}
+
+function tagList(arr) {
+  if (!arr || !arr.length) return '<span style="color:var(--text-dim)">—</span>';
+  return arr.map(v => `<span class="tag tag-small">${v}</span>`).join(' ');
 }
 
 // ── KPIs ─────────────────────────────────────────────────────────────────────
@@ -98,7 +99,7 @@ function updateKPIs(data) {
 
 // ── Charts ───────────────────────────────────────────────────────────────────
 
-const CHART_COLORS = ['#0e9e94','#d48a1a','#d44a4a','#6a5acd','#3182ce','#b07d15','#6b7a8d','#10b981','#e0579a'];
+const CHART_COLORS = ['#0e9e94','#d48a1a','#d44a4a','#6a5acd','#3182ce','#b07d15','#6b7a8d','#10b981','#e0579a','#f59e0b','#8b5cf6','#ef4444','#14b8a6','#f97316','#6366f1'];
 
 let chartInstances = {};
 
@@ -109,6 +110,29 @@ function countBy(data, key) {
     counts[val] = (counts[val] || 0) + 1;
   });
   return counts;
+}
+
+function countByArray(data, key, topN) {
+  const counts = {};
+  data.forEach(d => {
+    const arr = d[key];
+    if (arr && Array.isArray(arr)) {
+      arr.forEach(val => {
+        if (val && val.trim()) {
+          counts[val] = (counts[val] || 0) + 1;
+        }
+      });
+    }
+  });
+  // Sort by count descending and take topN
+  const sorted = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  if (topN && sorted.length > topN) {
+    const top = sorted.slice(0, topN);
+    const otherCount = sorted.slice(topN).reduce((s, e) => s + e[1], 0);
+    if (otherCount > 0) top.push(['Other', otherCount]);
+    return Object.fromEntries(top);
+  }
+  return Object.fromEntries(sorted);
 }
 
 function makeChart(id, type, labels, values, colors) {
@@ -152,7 +176,7 @@ function makeChart(id, type, labels, values, colors) {
       },
       scales: type === 'bar' ? {
         x: {
-          ticks: { color: '#6b7a8d', font: { size: 10, family: 'Inter' } },
+          ticks: { color: '#6b7a8d', font: { size: 10, family: 'Inter' }, maxRotation: 45, minRotation: 0 },
           grid: { color: '#e5e8ed' }
         },
         y: {
@@ -189,13 +213,17 @@ function updateCharts(data) {
   makeChart('chart-funding', 'doughnut', Object.keys(fundCounts), Object.values(fundCounts));
 
   // Region — bar
-  const regionCounts = {};
-  data.forEach(c => {
-    const r = hqRegion(c.hq);
-    regionCounts[r] = (regionCounts[r] || 0) + 1;
-  });
+  const regionCounts = countBy(data, 'region');
   const regionColors = Object.keys(regionCounts).map((_, i) => CHART_COLORS[i % CHART_COLORS.length]);
   makeChart('chart-region', 'bar', Object.keys(regionCounts), Object.values(regionCounts), regionColors);
+
+  // Isotope — bar (top 12)
+  const isoCounts = countByArray(data, 'isotopes', 12);
+  makeChart('chart-isotope', 'bar', Object.keys(isoCounts), Object.values(isoCounts));
+
+  // Target — bar (top 12)
+  const tgtCounts = countByArray(data, 'targets', 12);
+  makeChart('chart-target', 'bar', Object.keys(tgtCounts), Object.values(tgtCounts));
 }
 
 // ── Filters / Dropdowns ───────────────────────────────────────────────────────
@@ -211,6 +239,22 @@ function populateDropdown(id, data, key) {
   });
 }
 
+function populateArrayDropdown(id, data, key) {
+  const sel = document.getElementById(id);
+  const valSet = new Set();
+  data.forEach(d => {
+    if (d[key] && Array.isArray(d[key])) {
+      d[key].forEach(v => { if (v && v.trim()) valSet.add(v); });
+    }
+  });
+  [...valSet].sort().forEach(v => {
+    const opt = document.createElement('option');
+    opt.value = v;
+    opt.textContent = v;
+    sel.appendChild(opt);
+  });
+}
+
 // ── Table ─────────────────────────────────────────────────────────────────────
 
 function renderTable(data) {
@@ -218,7 +262,7 @@ function renderTable(data) {
   document.getElementById('row-count').textContent = `Showing ${data.length} compan${data.length === 1 ? 'y' : 'ies'}`;
 
   if (!data.length) {
-    tbody.innerHTML = `<tr><td colspan="12" style="text-align:center;padding:2rem;color:var(--text-dim)">No companies match the current filters.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="11" style="text-align:center;padding:2rem;color:var(--text-dim)">No companies match the current filters.</td></tr>`;
     return;
   }
 
@@ -227,15 +271,14 @@ function renderTable(data) {
       <td class="cell-name">
         <a href="${c.website}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${c.name}</a>
       </td>
-      <td class="cell-hq">${fmt(c.hq)}</td>
-      <td class="cell-founded">${fmt(c.founded)}</td>
+      <td>${regionTag(c.region)}</td>
       <td>${modalityTag(c.modality)}</td>
-      <td style="max-width:180px;font-size:0.78rem;color:var(--text-dim)">${fmt(c.technology)}</td>
-      <td style="max-width:180px;font-size:0.78rem;color:var(--text-dim)">${fmt(c.indication)}</td>
       <td>${stageTag(c.stage)}</td>
+      <td>${tagList(c.isotopes)}</td>
+      <td>${tagList(c.targets)}</td>
+      <td style="font-size:0.78rem;color:var(--text-dim)">${fmt(c.moa)}</td>
       <td>${fundingTag(c.funding_stage)}</td>
       <td>${fmtFunding(c.total_funding_usd_m)}</td>
-      <td>${listCells(c.key_investors)}</td>
       <td>${listCells(c.pipeline)}</td>
       <td class="cell-notes">
         <div class="cell-notes-text">${c.notes || '—'}</div>
@@ -260,6 +303,8 @@ function sortData(data) {
     let av = a[sortCol], bv = b[sortCol];
     if (av === null || av === undefined) av = '';
     if (bv === null || bv === undefined) bv = '';
+    if (Array.isArray(av)) av = av.join(', ');
+    if (Array.isArray(bv)) bv = bv.join(', ');
     const cmp = typeof av === 'number' && typeof bv === 'number'
       ? av - bv
       : String(av).localeCompare(String(bv));
@@ -291,15 +336,22 @@ function applyFilters() {
   const modality = document.getElementById('filter-modality').value;
   const stage    = document.getElementById('filter-stage').value;
   const funding  = document.getElementById('filter-funding').value;
+  const region   = document.getElementById('filter-region').value;
+  const isotope  = document.getElementById('filter-isotope').value;
+  const target   = document.getElementById('filter-target').value;
 
   filtered = allCompanies.filter(c => {
     if (modality && c.modality !== modality) return false;
     if (stage    && c.stage    !== stage)    return false;
     if (funding  && c.funding_stage !== funding) return false;
+    if (region   && c.region   !== region)  return false;
+    if (isotope  && (!c.isotopes || !c.isotopes.some(i => i === isotope))) return false;
+    if (target   && (!c.targets || !c.targets.some(t => t === target))) return false;
     if (search) {
       const haystack = [
         c.name, c.hq, c.description, c.technology, c.indication,
-        c.modality, c.stage, c.funding_stage,
+        c.modality, c.stage, c.funding_stage, c.region, c.moa,
+        ...(c.isotopes || []), ...(c.targets || []),
         ...(c.key_investors || []), ...(c.pipeline || []), c.notes
       ].join(' ').toLowerCase();
       if (!haystack.includes(search)) return false;
@@ -316,21 +368,29 @@ document.getElementById('search-input').addEventListener('input', applyFilters);
 document.getElementById('filter-modality').addEventListener('change', applyFilters);
 document.getElementById('filter-stage').addEventListener('change', applyFilters);
 document.getElementById('filter-funding').addEventListener('change', applyFilters);
+document.getElementById('filter-region').addEventListener('change', applyFilters);
+document.getElementById('filter-isotope').addEventListener('change', applyFilters);
+document.getElementById('filter-target').addEventListener('change', applyFilters);
 document.getElementById('btn-reset').addEventListener('click', () => {
   document.getElementById('search-input').value = '';
   document.getElementById('filter-modality').value = '';
   document.getElementById('filter-stage').value = '';
   document.getElementById('filter-funding').value = '';
+  document.getElementById('filter-region').value = '';
+  document.getElementById('filter-isotope').value = '';
+  document.getElementById('filter-target').value = '';
   applyFilters();
 });
 
 // ── Export CSV ──────────────────────────────────────────────────────────────
 
 document.getElementById('btn-export').addEventListener('click', () => {
-  const cols = ['name','hq','founded','modality','technology','indication','stage',
-                'funding_stage','total_funding_usd_m','key_investors','pipeline','notes'];
-  const headers = ['Company','HQ','Founded','Modality','Technology','Indication',
-                   'Dev Stage','Funding Stage','Total Raised ($M)','Key Investors','Pipeline','Notes'];
+  const cols = ['name','hq','region','founded','modality','technology','indication','stage',
+                'funding_stage','total_funding_usd_m','isotopes','targets','moa',
+                'key_investors','pipeline','notes'];
+  const headers = ['Company','HQ','Region','Founded','Modality','Technology','Indication',
+                   'Dev Stage','Funding Stage','Total Raised ($M)','Isotopes','Targets','MOA',
+                   'Key Investors','Pipeline','Notes'];
   const esc = v => {
     if (v === null || v === undefined) return '';
     const s = Array.isArray(v) ? v.join('; ') : String(v);
@@ -359,25 +419,45 @@ function openModal(c) {
     <div class="modal-company-name"><a href="${c.website}" target="_blank" rel="noopener" style="color:inherit;text-decoration:none;">${c.name} ↗</a></div>
     <div class="modal-company-meta">${c.hq || ''} ${c.founded ? '&bull; Founded ' + c.founded : ''}</div>
     <div class="modal-tags">
+      ${regionTag(c.region)}
       ${modalityTag(c.modality)}
       ${stageTag(c.stage)}
       ${fundingTag(c.funding_stage)}
     </div>
 
+    ${c.description ? `
     <div class="modal-section">
       <div class="modal-section-title">Description</div>
-      <div class="modal-section-body">${c.description || '—'}</div>
-    </div>
+      <div class="modal-section-body">${c.description}</div>
+    </div>` : ''}
 
+    ${c.technology ? `
     <div class="modal-section">
       <div class="modal-section-title">Technology</div>
-      <div class="modal-section-body">${c.technology || '—'}</div>
+      <div class="modal-section-body">${c.technology}</div>
+    </div>` : ''}
+
+    ${c.indication ? `
+    <div class="modal-section">
+      <div class="modal-section-title">Indication(s)</div>
+      <div class="modal-section-body">${c.indication}</div>
+    </div>` : ''}
+
+    <div class="modal-section">
+      <div class="modal-section-title">Isotope(s)</div>
+      <div class="modal-section-body">${c.isotopes && c.isotopes.length ? c.isotopes.join(', ') : '—'}</div>
     </div>
 
     <div class="modal-section">
-      <div class="modal-section-title">Indication(s)</div>
-      <div class="modal-section-body">${c.indication || '—'}</div>
+      <div class="modal-section-title">Target(s)</div>
+      <div class="modal-section-body">${c.targets && c.targets.length ? c.targets.join(', ') : '—'}</div>
     </div>
+
+    ${c.moa ? `
+    <div class="modal-section">
+      <div class="modal-section-title">Mechanism of Action</div>
+      <div class="modal-section-body">${c.moa}</div>
+    </div>` : ''}
 
     <div class="modal-section">
       <div class="modal-section-title">Pipeline</div>
@@ -443,8 +523,7 @@ function renderDealFlow() {
   const summary = document.getElementById('deal-flow-summary');
   const timeline = document.getElementById('deal-timeline');
 
-  // Summary KPIs
-  const totalAcqValue = [4.1, 2.4, 1.4, 1.0]; // B, known acquisition values
+  const totalAcqValue = [4.1, 2.4, 1.4, 1.0];
   const totalDealCount = DEALS.length;
   const acquirerSet = new Set(DEALS.filter(d => d.type === 'acquisition').map(d => d.acquirer));
 
@@ -463,7 +542,6 @@ function renderDealFlow() {
     </div>
   `;
 
-  // Timeline rows
   const typeLabel = { acquisition: 'Acquisition', partnership: 'Partnership', recap: 'Recap', ipo: 'IPO' };
   const typeClass = { acquisition: 'deal-type-acquisition', partnership: 'deal-type-partnership', recap: 'deal-type-recap', ipo: 'deal-type-ipo' };
 
@@ -495,77 +573,52 @@ function renderDealFlow() {
   `;
 }
 
-// ── Competitive Landscape Matrix ─────────────────────────────────────────
-
-const LANDSCAPE_DATA = [
-  // { company, target, isotope, stage }
-  // PSMA
-  { company: 'RayzeBio', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase III' },
-  { company: 'Fusion Pharma', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase II' },
-  { company: 'POINT Biopharma', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase III' },
-  { company: 'Curium', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase I/II' },
-  { company: 'Telix', target: 'PSMA', isotope: 'Lu-177', stage: 'Phase III' },
-  { company: 'Clarity', target: 'PSMA', isotope: 'Cu-67', stage: 'Phase II' },
-  { company: 'Clarity', target: 'PSMA', isotope: 'Cu-64', stage: 'Phase III' },
-  { company: 'Lantheus', target: 'PSMA', isotope: 'F-18', stage: 'Commercial' },
-  { company: 'Convergent', target: 'PSMA', isotope: 'Ac-225', stage: 'Phase I/II' },
-  { company: 'ARTBIO', target: 'PSMA', isotope: 'Pb-212', stage: 'Phase I' },
-  // SSTR2 / Somatostatin
-  { company: 'ITM', target: 'SSTR2', isotope: 'Lu-177', stage: 'NDA Filed' },
-  { company: 'RayzeBio', target: 'SSTR2', isotope: 'Ac-225', stage: 'Phase III' },
-  { company: 'RadioMedix', target: 'SSTR2', isotope: 'Pb-212', stage: 'Phase III' },
-  { company: 'Perspective', target: 'SSTR2', isotope: 'Pb-212', stage: 'Phase I/II' },
-  { company: 'Clarity', target: 'SSTR2', isotope: 'Cu-64', stage: 'Phase III' },
-  // FAP
-  { company: 'Ratio', target: 'FAP', isotope: 'Lu-177', stage: 'Phase I' },
-  { company: 'Precirix', target: 'FAP', isotope: 'Ac-225', stage: 'Phase I' },
-  { company: 'Perspective', target: 'FAP', isotope: 'Pb-212', stage: 'Phase I' },
-  { company: 'POINT Biopharma', target: 'FAP', isotope: 'Lu-177', stage: 'Phase I' },
-  { company: 'Actithera', target: 'FAP', isotope: 'Lu-177', stage: 'Preclinical' },
-  // HER2
-  { company: 'Precirix', target: 'HER2', isotope: 'Lu-177', stage: 'Phase I/II' },
-  { company: 'Aktis', target: 'HER2', isotope: 'Lu-177', stage: 'Preclinical' },
-  // Nectin-4
-  { company: 'Aktis', target: 'Nectin-4', isotope: 'Lu-177', stage: 'Phase Ib' },
-  // B7-H3
-  { company: 'Aktis', target: 'B7-H3', isotope: 'Lu-177', stage: 'Preclinical' },
-  // DLL3
-  { company: 'Orano Med', target: 'DLL3', isotope: 'Pb-212', stage: 'Preclinical' },
-  { company: 'Mariana', target: 'DLL3', isotope: 'Ac-225', stage: 'Preclinical' },
-  // CAIX
-  { company: 'Telix', target: 'CAIX', isotope: 'Zr-89', stage: 'Phase II' },
-  // Lipid Raft
-  { company: 'Cellectar', target: 'Lipid Raft', isotope: 'I-131', stage: 'Phase II' },
-  // GPCR
-  { company: 'Radionetics', target: 'GPCR', isotope: 'Lu-177', stage: 'Preclinical' },
-  // Intratumoral
-  { company: 'Alpha Tau', target: 'Intratumoral', isotope: 'Ra-224', stage: 'Phase I/II' },
-];
+// ── Competitive Landscape Matrix (Dynamic) ───────────────────────────────
 
 function renderLandscapeMatrix() {
   const table = document.getElementById('landscape-table');
 
-  // Collect unique targets and isotopes
-  const targets = [...new Set(LANDSCAPE_DATA.map(d => d.target))];
-  const isotopes = [...new Set(LANDSCAPE_DATA.map(d => d.isotope))];
-
-  // Order isotopes logically
-  const isotopeOrder = ['Lu-177', 'Ac-225', 'Pb-212', 'Cu-67', 'Cu-64', 'I-131', 'F-18', 'Zr-89', 'Ra-224'];
-  isotopes.sort((a, b) => {
-    const ia = isotopeOrder.indexOf(a), ib = isotopeOrder.indexOf(b);
-    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  // Build landscape data dynamically from company records
+  const landscapeData = [];
+  allCompanies.forEach(c => {
+    if (!c.isotopes || !c.targets) return;
+    c.targets.forEach(target => {
+      c.isotopes.forEach(isotope => {
+        // Skip generic isotopes
+        if (['Alpha', 'Beta', 'Undisclosed'].includes(isotope)) return;
+        landscapeData.push({
+          company: c.name.replace(/ Holdings| Pharmaceuticals| Therapeutics| Biosciences| Medical| Pharma/g, '').trim(),
+          target,
+          isotope,
+          stage: c.stage || 'Unknown',
+        });
+      });
+    });
   });
 
-  // Determine chip class
+  // Collect unique targets and isotopes
+  const targetCounts = {};
+  landscapeData.forEach(d => { targetCounts[d.target] = (targetCounts[d.target] || 0) + 1; });
+  // Show top 15 targets by frequency
+  const targets = Object.entries(targetCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 15)
+    .map(e => e[0]);
+
+  const isotopeOrder = ['Lu-177', 'Ac-225', 'Pb-212', 'Cu-67', 'Cu-64', 'I-131', 'I-125', 'At-211', 'F-18', 'Zr-89', 'Ra-224', 'Y-90', 'Re-188', 'Tb-161', 'Sm-153'];
+  const isotopeSet = new Set(landscapeData.map(d => d.isotope));
+  const isotopes = isotopeOrder.filter(i => isotopeSet.has(i));
+  // Add any isotopes not in the predefined order
+  isotopeSet.forEach(i => { if (!isotopes.includes(i)) isotopes.push(i); });
+
   function chipClass(stage) {
     const s = stage.toLowerCase();
     if (s.includes('commercial') || s.includes('nda')) return 'landscape-chip-commercial';
-    if (s.includes('preclinical')) return 'landscape-chip-preclinical';
+    if (s.includes('pre-clinical') || s.includes('preclinical')) return 'landscape-chip-preclinical';
     if (s.includes('acquired')) return 'landscape-chip-acquired';
     return 'landscape-chip-clinical';
   }
 
-  // Build table
   let html = '<thead><tr><th>Target \\ Isotope</th>';
   isotopes.forEach(iso => { html += `<th>${iso}</th>`; });
   html += '</tr></thead><tbody>';
@@ -573,12 +626,19 @@ function renderLandscapeMatrix() {
   targets.forEach(target => {
     html += `<tr><td>${target}</td>`;
     isotopes.forEach(iso => {
-      const entries = LANDSCAPE_DATA.filter(d => d.target === target && d.isotope === iso);
+      const entries = landscapeData.filter(d => d.target === target && d.isotope === iso);
       if (entries.length === 0) {
         html += '<td><span class="landscape-empty">&mdash;</span></td>';
       } else {
+        // Deduplicate by company name
+        const seen = new Set();
+        const unique = entries.filter(e => {
+          if (seen.has(e.company)) return false;
+          seen.add(e.company);
+          return true;
+        });
         html += '<td><div class="landscape-cell">';
-        entries.forEach(e => {
+        unique.forEach(e => {
           html += `<span class="landscape-chip ${chipClass(e.stage)}" title="${e.stage}">${e.company}</span>`;
         });
         html += '</div></td>';
@@ -615,6 +675,9 @@ async function init() {
   populateDropdown('filter-modality', allCompanies, 'modality');
   populateDropdown('filter-stage',    allCompanies, 'stage');
   populateDropdown('filter-funding',  allCompanies, 'funding_stage');
+  populateDropdown('filter-region',   allCompanies, 'region');
+  populateArrayDropdown('filter-isotope', allCompanies, 'isotopes');
+  populateArrayDropdown('filter-target',  allCompanies, 'targets');
 
   updateKPIs(filtered);
   updateCharts(filtered);

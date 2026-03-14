@@ -122,7 +122,7 @@ main {
 /* ── Charts Row ── */
 .charts-row {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
@@ -145,7 +145,7 @@ main {
 }
 
 .chart-card canvas {
-  max-height: 200px;
+  max-height: 250px;
 }
 
 /* ── Filters ── */
@@ -346,6 +346,20 @@ main {
 .tag-seriesb   { background: #fdf2e0; color: #9e6b12; border: 1px solid #f0d48a; }
 .tag-seriesa   { background: #fdf5e0; color: #8a6a10; border: 1px solid #e8d080; }
 .tag-private   { background: #eef0f3; color: #5a6a7d; border: 1px solid #cdd3dc; }
+
+/* Region tags */
+.tag-region-us   { background: #e8f2fd; color: #2366a8; border: 1px solid #b8d7f5; }
+.tag-region-eu   { background: #eee8fd; color: #5040a0; border: 1px solid #cdc2f5; }
+.tag-region-asia { background: #e6f7f5; color: #0b7a72; border: 1px solid #b3e8e3; }
+
+/* Small tag variant for isotopes/targets in table */
+.tag-small {
+  font-size: 0.65rem;
+  padding: 0.1rem 0.35rem;
+  background: #eef0f3;
+  color: #5a6a7d;
+  border: 1px solid #cdd3dc;
+}
 
 .cell-list {
   display: flex;
@@ -918,6 +932,7 @@ footer {
 /* ── Responsive ── */
 @media (max-width: 1100px) {
   .charts-row { grid-template-columns: repeat(2, 1fr); }
+  .cell-hq, .cell-founded { display: none; }
 }
 
 @media (max-width: 700px) {

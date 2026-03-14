@@ -1,6 +1,6 @@
 # Radiotherapy Startup Tracker
 
-A dark-themed interactive dashboard for tracking startup and emerging companies in the radiotherapy and radiopharmaceutical cancer space.
+A light-themed interactive dashboard for tracking 150+ startup and emerging companies in the radiotherapy and radiopharmaceutical cancer space, across three global regions.
 
 **Live site:** https://mattmargolis.github.io/radiotherapy-startup-tracker/
 
@@ -9,10 +9,21 @@ A dark-themed interactive dashboard for tracking startup and emerging companies 
 ## Features
 
 - **KPI cards** — total companies, total disclosed funding, # clinical-stage, # acquired/M&A
-- **4 charts** — breakdown by modality, development stage, funding stage, and HQ region
-- **Filterable table** — full-text search + dropdowns for modality, stage, and funding type
+- **6 charts** — breakdown by modality, development stage, funding stage, region, isotope, and molecular target
+- **Filterable table** — full-text search + 6 dropdown filters (modality, stage, funding, region, isotope, target)
 - **Sortable columns** — click any column header to sort ascending/descending
-- **Company detail modal** — click any row for the full company profile
+- **Company detail modal** — click any row for the full company profile including isotopes, targets, and MOA
+- **Dynamic competitive landscape matrix** — Target x Isotope grid auto-populated from company data
+- **M&A deal flow timeline** — major acquisitions and strategic partnerships
+- **CSV export** — download filtered or full dataset
+
+## Regions
+
+| Region | Companies |
+|---|---|
+| US-Canada | ~61 |
+| EU-Middle East | ~44 |
+| Aus-Asia | ~45 |
 
 ## Modalities Tracked
 
@@ -32,17 +43,19 @@ Company data lives in [`data/companies.json`](data/companies.json). Each entry i
 | Field | Description |
 |---|---|
 | `name`, `website`, `hq`, `founded` | Company basics |
+| `region` | Geographic region: US-Canada, EU-Middle East, or Aus-Asia |
 | `modality`, `technology`, `indication` | What they do and who they treat |
-| `stage` | Pre-clinical, Clinical Phase I/II, Clinical Phase III, or Commercial |
+| `stage` | Pre-clinical, Clinical Phase I, Clinical Phase I/II, Clinical Phase III, or Commercial |
 | `funding_stage` | Private, Series A/B/C, Public, or Acquired |
 | `total_funding_usd_m` | Total disclosed funding in $M |
-| `last_funding_date` | Date of most recent funding round |
-| `key_investors` | Notable investors or acquirers |
+| `isotopes` | Array of radioisotopes used (e.g., Lu-177, Ac-225, Pb-212) |
+| `targets` | Array of molecular targets (e.g., PSMA, SSTR2, FAP, HER2) |
+| `moa` | Mechanism of action (Antibody, Peptide, Small Molecule, etc.) |
 | `pipeline` | Key assets and development status |
 | `partnerships` | Notable collaborations or M&A |
 | `notes` | Additional context |
 
-Data is sourced from public filings, company websites, and press releases. Verify independently before use.
+Data is sourced from public filings, company websites, press releases, and the Nucleus Navigator development wheel workbooks. Verify independently before use.
 
 ## Adding a Company
 

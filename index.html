@@ -58,8 +58,16 @@
       <canvas id="chart-funding"></canvas>
     </div>
     <div class="chart-card">
-      <h3>By HQ Region</h3>
+      <h3>By Region</h3>
       <canvas id="chart-region"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>By Isotope</h3>
+      <canvas id="chart-isotope"></canvas>
+    </div>
+    <div class="chart-card">
+      <h3>By Molecular Target</h3>
+      <canvas id="chart-target"></canvas>
     </div>
   </section>
 
@@ -109,6 +117,24 @@
       </select>
     </div>
     <div class="filter-group">
+      <label>Region</label>
+      <select id="filter-region">
+        <option value="">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Isotope</label>
+      <select id="filter-isotope">
+        <option value="">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label>Target</label>
+      <select id="filter-target">
+        <option value="">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
       <button id="btn-reset">Reset Filters</button>
     </div>
     <div class="filter-group filter-right">
@@ -126,15 +152,14 @@
         <thead>
           <tr>
             <th data-col="name" class="sortable">Company <span class="sort-icon">&#8597;</span></th>
-            <th data-col="hq" class="sortable">HQ <span class="sort-icon">&#8597;</span></th>
-            <th data-col="founded" class="sortable">Founded <span class="sort-icon">&#8597;</span></th>
+            <th data-col="region" class="sortable">Region <span class="sort-icon">&#8597;</span></th>
             <th data-col="modality" class="sortable">Modality <span class="sort-icon">&#8597;</span></th>
-            <th data-col="technology" class="sortable">Technology <span class="sort-icon">&#8597;</span></th>
-            <th data-col="indication" class="sortable">Indication <span class="sort-icon">&#8597;</span></th>
             <th data-col="stage" class="sortable">Dev. Stage <span class="sort-icon">&#8597;</span></th>
+            <th data-col="isotopes">Isotope(s)</th>
+            <th data-col="targets">Target(s)</th>
+            <th data-col="moa" class="sortable">MOA <span class="sort-icon">&#8597;</span></th>
             <th data-col="funding_stage" class="sortable">Funding <span class="sort-icon">&#8597;</span></th>
             <th data-col="total_funding_usd_m" class="sortable">Total Raised ($M) <span class="sort-icon">&#8597;</span></th>
-            <th data-col="key_investors">Key Investors</th>
             <th data-col="pipeline">Pipeline</th>
             <th>Notes</th>
           </tr>

@@ -1,366 +1,204 @@
 [
   {
     "id": 1,
-    "name": "Nucleus RadioPharma",
-    "website": "https://nucleusrad.com",
-    "hq": "Davidson, NC",
-    "founded": 2022,
-    "description": "CDMO specializing in end-to-end radiopharmaceutical development and manufacturing. Isotope-agnostic facilities compliant with 21 CFR Part 210/211.",
+    "name": "3B Pharmaceuticals",
+    "website": "https://3b-pharma.com/targeted-radiotherapy/pipeline/pipeline-chart/",
+    "hq": null,
+    "founded": null,
+    "description": null,
     "modality": "Radioligand Therapy (RLT)",
-    "technology": "CDMO / Manufacturing",
-    "indication": "Pan-cancer",
-    "stage": "Commercial",
-    "funding_stage": "Series A",
-    "total_funding_usd_m": 74,
-    "last_funding_date": "2025-01",
-    "key_investors": ["AstraZeneca", "Private investors"],
-    "pipeline": ["Contract manufacturing for RLT developers", "Radiopharmaceutical infusion system (alpha dev)"],
-    "partnerships": ["Clarity Pharmaceuticals (Cu-67-SAR-bisPSMA manufacturing)"],
-    "notes": "Former FDA Commissioner Dr. Stephen Hahn named CEO. $74M total raised incl $56M Series A with AstraZeneca extension. Facilities in Rochester MN, Spring House PA (late 2026), Mesa AZ (mid-2027). 100k+ sq ft total.",
-    "source": "https://nucleusrad.com"
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "FO-004 (Preclinical)",
+      "3BP-227 (1)",
+      "3BP-3775 (Preclinical)",
+      "3BP PSMA (Preclinical)",
+      "3BP-6146 (Preclinical)",
+      "3BP-Trop2 (Preclinical)",
+      "3BP-DLL3 (Discovery)",
+      "3BP-6121 (Preclinical)",
+      "3BP (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://3b-pharma.com/targeted-radiotherapy/pipeline/pipeline-chart/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "DLL3",
+      "FAP",
+      "GIP-R",
+      "NTR",
+      "P-Cadherin",
+      "PSMA",
+      "Trop2",
+      "uPAR"
+    ],
+    "moa": "Peptide, Small Molecule"
   },
   {
     "id": 2,
-    "name": "RayzeBio",
-    "website": "https://rayzebio.com",
-    "hq": "San Diego, CA",
-    "founded": 2020,
-    "description": "Targeted alpha therapies using Actinium-225 for solid tumors. Acquired by Bristol Myers Squibb in 2024.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Actinium-225 radiopharmaceuticals",
-    "indication": "Solid tumors (GEP-NETs, lung, prostate, breast, SCLC)",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Acquired",
-    "total_funding_usd_m": 510,
-    "last_funding_date": "2024-01",
-    "key_investors": ["Bristol Myers Squibb (acquirer)", "Versant Ventures", "GV"],
-    "pipeline": ["RYZ101 (Ac-225-DOTATATE) – GEP-NETs Phase III (ACTION-1)", "RYZ101 – HR+/HER2- breast Phase Ib", "RYZ101 – ES-SCLC Phase Ib", "OncoACP3 (licensed from Philochem) – prostate"],
-    "partnerships": ["BMS acquisition $4.1B (2024)", "Philochem license $350M upfront + $1B+ milestones (Jun 2025)"],
-    "notes": "Acquired by BMS for $4.1B in Jan 2024. New 77k sq ft Indianapolis manufacturing facility (Jul 2025). Phase 1b RYZ101 showed 29.4% ORR. Enrollment temporarily halted due to Ac-225 isotope shortage.",
-    "source": "https://rayzebio.com"
+    "name": "3D Med",
+    "website": "https://en.3d-medicines.com/pipelines",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "3D1015 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://en.3d-medicines.com/pipelines",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
   },
   {
     "id": 3,
-    "name": "Fusion Pharmaceuticals",
-    "website": "https://fusionpharma.com",
-    "hq": "Hamilton, Ontario, Canada",
-    "founded": 2014,
-    "description": "Targeted alpha therapies and radioimmunotherapy platform. Acquired by AstraZeneca in March 2024, now fully integrated.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Actinium-225 / IgG antibody conjugates",
-    "indication": "Solid tumors (prostate, breast, lung)",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Acquired",
-    "total_funding_usd_m": 300,
-    "last_funding_date": "2024-03",
-    "key_investors": ["AstraZeneca (acquirer)", "Johnson & Johnson Innovation"],
-    "pipeline": ["FPI-2265 (Ac-225-PSMA) – prostate Phase II (AlphaBreak)", "AZD2068 – EGFR/cMET solid tumors Phase I"],
-    "partnerships": ["AstraZeneca acquisition $2.4B (2024)"],
-    "notes": "Acquired by AstraZeneca for $2.4B in Mar 2024, fully integrated. FPI-2265 AlphaBreak readout expected H2 2025. AZD2068 data expected 2026+.",
-    "source": "https://fusionpharma.com"
+    "name": "AB-RayBio",
+    "website": "https://www.abraybio.com/zzgy",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "002D/T (IND)",
+      "003 (Discovery)",
+      "004 (Discovery)",
+      "005 (Discovery)",
+      "006 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.abraybio.com/zzgy",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
   },
   {
     "id": 4,
-    "name": "Perspective Therapeutics",
-    "website": "https://perspectivetherapeutics.com",
-    "hq": "New York, NY",
-    "founded": 2009,
-    "description": "Clinical-stage radiopharmaceutical company focused on alpha-particle emitting therapies using Lead-212 for solid tumors.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Lead-212 (Pb-212) radiopharmaceuticals",
-    "indication": "NETs, melanoma, FAP+ solid tumors",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 325,
-    "last_funding_date": "2025-06",
-    "key_investors": ["Public (NYSE: CATX)"],
-    "pipeline": ["VMT-alpha-NET (Pb-212-DOTAMTATE) – NETs Phase I/II", "VMT01 (Pb-212) – melanoma Phase I (mono + nivo)", "PSV359 (FAP) – solid tumors Phase I"],
-    "partnerships": ["Orano Med (Pb-212 supply)"],
-    "notes": "Formerly Viewpoint Molecular Targeting. ASCO-GI 2026: no DLTs in 56 patients, durable disease control. $175M stock offering to fund ops into late 2026+. Manufacturing expansion underway.",
-    "source": "https://perspectivetherapeutics.com"
+    "name": "Abdera Therapeutics",
+    "website": "https://abderatx.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ABD-147 (1)",
+      "ABD-320 (IND Enabling)",
+      "ABD-003 (Lead Optimization)",
+      "ABD-004 (Lead Optimization)",
+      "ABD-005 (Lead Optimization)",
+      "ABD-006 (Lead Optimization)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://abderatx.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "5T4",
+      "DLL3"
+    ],
+    "moa": "Antibody"
   },
   {
     "id": 5,
-    "name": "ARTBIO",
-    "website": "https://artbio.com",
-    "hq": "Cambridge, MA",
-    "founded": 2022,
-    "description": "Targeted radiotherapies using Lead-212 via proprietary AlphaDirect generator technology. Spin-out from Harvard/MGH.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Pb-212 AlphaDirect generator + antibody-targeted",
-    "indication": "Prostate cancer, hematologic malignancies, solid tumors",
-    "stage": "Clinical Phase I",
-    "funding_stage": "Series B",
-    "total_funding_usd_m": 245,
-    "last_funding_date": "2025-07",
-    "key_investors": ["GV", "Atlas Venture", "Deerfield Management"],
-    "pipeline": ["AB001 (212Pb-NG001) – mCRPC Phase I (ARTISAN)", "AB002 – solid tumors (pre-IND)"],
+    "name": "Ablaze",
+    "website": "https://www.linkedin.com/company/ablaze-pharmaceuticals-shanghai-co-ltd/about/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RYZ-801 (Preclinical)"
+    ],
     "partnerships": [],
-    "notes": "$132M Series B closed Jul 2025 (total ~$245M). First two cohorts dosed in ARTISAN Phase 1 for mCRPC (Jan 2026). Jonathan Freeman Ph.D. joined as CBO.",
-    "source": "https://artbio.com"
+    "notes": null,
+    "source": "https://www.linkedin.com/company/ablaze-pharmaceuticals-shanghai-co-ltd/about/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "GPC3"
+    ],
+    "moa": "Peptide"
   },
   {
     "id": 6,
-    "name": "RefleXion Medical",
-    "website": "https://reflexion.com",
-    "hq": "Hayward, CA",
-    "founded": 2009,
-    "description": "Biology-guided radiotherapy (BgRT) — real-time PET-guided radiation delivery targeting tumor biology during treatment.",
-    "modality": "External Beam Radiotherapy (EBRT)",
-    "technology": "Biology-guided radiotherapy (BgRT) / PET-linac",
-    "indication": "Lung, bone metastases",
-    "stage": "Commercial",
-    "funding_stage": "Private",
-    "total_funding_usd_m": 395,
-    "last_funding_date": "2022-11",
-    "key_investors": ["ARCH Venture Partners", "General Electric", "Venrock"],
-    "pipeline": ["RefleXion X2 system (FDA cleared Jan 2026)", "SCINTIX therapy", "BgRT REVEAL trials"],
-    "partnerships": ["GE HealthCare"],
-    "notes": "Next-gen X2 FDA cleared Jan 2026 with 20x PET sensitivity improvement for primary and metastatic lung/bone tumors. Clinical data from PREMIER Registry presented at ASTRO 2025.",
-    "source": "https://reflexion.com"
+    "name": "Abtis",
+    "website": "https://abtis.co.kr/en/science/pipeline.php?ckattempt=1",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ARC (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://abtis.co.kr/en/science/pipeline.php?ckattempt=1",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
   },
   {
     "id": 7,
-    "name": "Mevion Medical Systems",
-    "website": "https://mevion.com",
-    "hq": "Littleton, MA",
-    "founded": 2004,
-    "description": "Compact superconducting proton therapy systems designed to fit in conventional hospital vaults, dramatically expanding proton therapy access.",
-    "modality": "Proton Therapy",
-    "technology": "Compact superconducting proton accelerator",
-    "indication": "Pan-cancer (brain, prostate, pediatric)",
-    "stage": "Commercial",
-    "funding_stage": "Private",
-    "total_funding_usd_m": 290,
-    "last_funding_date": "2019-01",
-    "key_investors": ["Warburg Pincus", "Khosla Ventures", "New Enterprise Associates"],
-    "pipeline": ["MEVION S250i Hyperscan", "MEVION S250-FIT (FDA cleared Sep 2025, CE Mark Feb 2026)"],
-    "partnerships": ["Stanford Health Care", "BayCare", "Atlantic Health", "UNC Health"],
-    "notes": "S250-FIT is world's first proton therapy system designed for existing linac vaults. FDA cleared Sep 2025, CE Mark Feb 2026. Nine institutional contracts signed globally.",
-    "source": "https://mevion.com"
-  },
-  {
-    "id": 8,
-    "name": "Alpha Tau Medical",
-    "website": "https://alphatau.com",
-    "hq": "Jerusalem, Israel",
-    "founded": 2016,
-    "description": "Alpha DaRT (Diffusing Alpha-emitters Radiation Therapy) — intratumoral Ra-224 seeds delivering alpha particles throughout solid tumors.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Alpha DaRT intratumoral seeds (Ra-224)",
-    "indication": "Skin SCC, head & neck, GBM, prostate, PDAC",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 150,
-    "last_funding_date": "2022-02",
-    "key_investors": ["Public (NASDAQ: DRTS)"],
-    "pipeline": ["Alpha DaRT – recurrent cSCC (FDA PMA submitted Jan 2026)", "Alpha DaRT – head & neck (Japan Shonin approval Feb 2026)", "Alpha DaRT – recurrent GBM (Breakthrough Device, US pilot)", "Alpha DaRT – prostate (FDA IDE approved)", "Alpha DaRT – PDAC (ASCO GI 2026: 22% ORR, 81% DCR)"],
-    "partnerships": [],
-    "notes": "Japan marketing approval Feb 2026 for unresectable H&N cancer. FDA PMA first module submitted Jan 2026 for recurrent cSCC. First GBM patient treated at Ohio State Dec 2025. Five concurrent US trials in 2026.",
-    "source": "https://alphatau.com"
-  },
-  {
-    "id": 9,
-    "name": "Aktis Oncology",
-    "website": "https://aktisoncology.com",
-    "hq": "Boston, MA",
-    "founded": 2021,
-    "description": "Next-generation targeted radiotherapeutics using engineered mini-proteins (Affibodies, DARPins) for superior tumor targeting with low off-target toxicity.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Engineered mini-protein targeting scaffolds + Lu-177/Ac-225",
-    "indication": "Nectin-4+ cancers, B7-H3+ cancers, solid tumors",
-    "stage": "Clinical Phase I",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 664,
-    "last_funding_date": "2026-01",
-    "key_investors": ["Public (NASDAQ: AKTS)", "Eli Lilly", "Merck", "Novartis", "BMS", "Versant Ventures"],
-    "pipeline": ["AKY-1189 (Nectin-4) – Phase Ib (NECTINIUM-2, FDA Fast Track Mar 2026)", "AKY-2519 (B7-H3) – IND planned 2026"],
-    "partnerships": ["Eli Lilly ($60M upfront + $1.1B milestones)"],
-    "notes": "IPO'd Jan 2026 raising $318M — first biotech IPO of 2026. Lilly purchased $100M of shares. FDA Fast Track for AKY-1189 (Mar 2026). Nine US sites open; data expected Q1 2027.",
-    "source": "https://aktisoncology.com"
-  },
-  {
-    "id": 10,
-    "name": "Clarity Pharmaceuticals",
-    "website": "https://claritypharmaceuticals.com",
-    "hq": "Sydney, Australia",
-    "founded": 2014,
-    "description": "Copper theranostics platform using Cu-64 (PET imaging) and Cu-67 (therapy) with SAR chelation technology.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Copper-67 / Copper-64 theranostics (SAR chelation)",
-    "indication": "Prostate cancer, NETs",
-    "stage": "Clinical Phase II/III",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 120,
-    "last_funding_date": "2023-11",
-    "key_investors": ["Public (ASX: CU6)"],
-    "pipeline": ["64Cu-SAR-bisPSMA – prostate Phase III (AMPLIFY, n=220, FDA Fast Track)", "SECuRE (Cu-67-PSMA) – prostate Phase II", "64Cu-SARTATE – NETs Phase III (planned 2026)", "SAR-bisFAP – Phase I (planned 2026)"],
-    "partnerships": ["Bayer (collaboration)", "Nusano (Cu-64 and Cu-67 supply from Utah facility)"],
-    "notes": "AMPLIFY Phase III began mid-May 2025. FDA Fast Track for 64Cu-SAR-bisPSMA in biochemical recurrence. Nusano isotope supply agreements for both Cu-64 (early 2026) and Cu-67 (mid-2026).",
-    "source": "https://claritypharmaceuticals.com"
-  },
-  {
-    "id": 11,
-    "name": "Curium Pharma",
-    "website": "https://curiumpharma.com",
-    "hq": "Boston, MA",
-    "founded": 2019,
-    "description": "Global leader in diagnostic and therapeutic radiopharmaceuticals, offering contract manufacturing and a growing oncology pipeline.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Lu-177 / F-18 / Ga-68 radiopharmaceutical manufacturing",
-    "indication": "Prostate cancer, NETs",
-    "stage": "Commercial",
-    "funding_stage": "Private",
-    "total_funding_usd_m": null,
-    "last_funding_date": "2025-11",
-    "key_investors": ["CapVest Partners"],
-    "pipeline": ["Lu-177 zadavotide guraxetan – mCRPC", "177Lu-PSMA-I&T – Japan registrational trial (first patient Feb 2026)", "Ga-68 PSMA PET agents"],
-    "partnerships": ["PeptiDream/PDRadiopharma (Japan)", "Nucleis (acquired Apr 2025)", "Monrol (acquired)"],
-    "notes": "Recapitalized by CapVest Partners at ~$7B valuation (Nov 2025) — largest transaction in nuclear medicine globally. Moved global HQ to Boston. Launched Curium Biopharma discovery unit.",
-    "source": "https://curiumpharma.com"
-  },
-  {
-    "id": 12,
-    "name": "Lantheus Holdings",
-    "website": "https://lantheus.com",
-    "hq": "North Billerica, MA",
-    "founded": 1956,
-    "description": "Leading radiopharmaceutical company with commercial PSMA PET product and growing oncology pipeline. FY2025 revenue $1.54B.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "PSMA-targeted diagnostics and therapeutics",
-    "indication": "Prostate cancer, NETs, Alzheimer's",
-    "stage": "Commercial",
-    "funding_stage": "Public",
-    "total_funding_usd_m": null,
-    "last_funding_date": null,
-    "key_investors": ["Public (NASDAQ: LNTH)"],
-    "pipeline": ["PYLARIFY TruVu (F-18 PSMA PET) – FDA approved", "PNT2003 (Lutathera radioequivalent) – tentative ANDA approval Mar 2026", "OCTEVY – pending FDA approval", "MK-6240 (tau PET) – pending FDA approval"],
-    "partnerships": ["Novartis", "Life Molecular Imaging (acquired)", "Evergreen Theragnostics (acquired)"],
-    "notes": "FY2025 revenue $1.54B. Divested legacy SPECT business to SHINE Technologies (Jan 2026). Up to four FDA approvals expected in 2026. FY2026 guidance: $1.4-1.45B revenue.",
-    "source": "https://lantheus.com"
-  },
-  {
-    "id": 13,
-    "name": "RadioMedix",
-    "website": "https://radiomedix.com",
-    "hq": "Houston, TX",
-    "founded": 2008,
-    "description": "Develops radiopharmaceutical therapeutics and diagnostics with strong Pb-212 isotope supply chain capabilities.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Pb-212 / Lu-177 / Ga-68 DOTA-conjugated agents",
-    "indication": "NETs, GBM, PDAC",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Private",
-    "total_funding_usd_m": 30,
-    "last_funding_date": "2020-01",
-    "key_investors": ["Private"],
-    "pipeline": ["AlphaMedix (212Pb-DOTAMTATE) – NETs Phase III (licensed to Sanofi)", "203Pb-RMX-VH-PIB – GBM/PDAC Phase I (first patient Sep 2025)", "RAHA-100 bench-top Pb-212 generator (launched Jun 2025)"],
-    "partnerships": ["Sanofi (AlphaMedix exclusive license)", "MD Anderson Cancer Center", "Vect-Horus", "Thor Medical (Th-228 supply)", "Van Overeem Nuclear B.V. (Th-228 supply)"],
-    "notes": "AlphaMedix Phase 2 met all primary efficacy endpoints in GEP-NETs; licensed to Sanofi (Sep 2024) for global commercialization, entering Phase 3. Proprietary RAHA-100 Pb-212 generator launched Jun 2025.",
-    "source": "https://radiomedix.com"
-  },
-  {
-    "id": 15,
-    "name": "Telix Pharmaceuticals",
-    "website": "https://telixpharma.com",
-    "hq": "Melbourne, Australia",
-    "founded": 2017,
-    "description": "Commercial-stage biopharmaceutical company focused on theranostic radiopharmaceuticals. FY2025 revenue US$804M (+56% YoY).",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "PSMA / carbonic anhydrase IX / bone-targeting, Lu-177 and Zr-89 agents",
-    "indication": "Prostate cancer, renal cell carcinoma, glioma, bone cancer",
-    "stage": "Commercial",
-    "funding_stage": "Public",
-    "total_funding_usd_m": null,
-    "last_funding_date": null,
-    "key_investors": ["Public (ASX: TLX)"],
-    "pipeline": ["Illuccix (Ga-68 PSMA PET) – commercial (China Phase 3 met primary endpoint)", "TLX591-Tx (Lu-177 PSMA) – prostate Phase III (ProstACT Global)", "TLX250-CDx (Zircaix) – kidney imaging BLA resubmission", "TLX101-CDx (Pixclara) – brain cancer imaging NDA resubmission", "TLX090-Tx (Sm-153-DOTMP) – bone cancer Phase I (SOLACE)"],
-    "partnerships": ["Isotope supply agreements (ANSTO, NorthStar)"],
-    "notes": "FY2025 revenue US$804M (+56% YoY). FY2026 guidance US$950-970M. Received CRLs on TLX250-CDx and TLX101-CDx in 2025, resubmissions in progress. Illuccix China Phase 3 PPV 94.8%.",
-    "source": "https://telixpharma.com"
-  },
-  {
-    "id": 16,
-    "name": "POINT Biopharma",
-    "website": "https://pointbiopharma.com",
-    "hq": "Indianapolis, IN",
-    "founded": 2018,
-    "description": "Radiopharmaceutical company developing Lu-177 PSMA therapy for prostate cancer. Acquired by Eli Lilly in 2023. PNT2002 deprioritized.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Lutetium-177 PSMA-targeted small molecule therapy",
-    "indication": "Metastatic castration-resistant prostate cancer",
-    "stage": "Clinical Phase III",
-    "funding_stage": "Acquired",
-    "total_funding_usd_m": 470,
-    "last_funding_date": "2023-10",
-    "key_investors": ["Eli Lilly (acquirer)", "Public (NASDAQ: PNT — delisted)"],
-    "pipeline": ["PNT2002 (Lu-177-PSMA-I&T) – mCRPC Phase III (SPLASH) — deprioritized", "PNT2004 (FAP-targeting) – FRONTIER Phase I ongoing"],
-    "partnerships": ["Eli Lilly acquisition $1.4B (2023)"],
-    "notes": "Acquired by Eli Lilly for $1.4B in Oct 2023. SPLASH met primary rPFS endpoint (9.5 vs 6.0 months) but OS disappointing. Lilly deprioritized PNT2002 NDA filing; radiopharma strategy now centers on Aktis Oncology and Radionetics.",
-    "source": "https://pointbiopharma.com"
-  },
-  {
-    "id": 17,
-    "name": "Cellectar Biosciences",
-    "website": "https://cellectar.com",
-    "hq": "Florham Park, NJ",
-    "founded": 2002,
-    "description": "Phospholipid Drug Conjugate (PDC) platform delivering radioiodine and other payloads selectively to cancer cells via lipid raft targeting.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Phospholipid Drug Conjugate (PDC) + Iodine-131",
-    "indication": "Waldenstrom macroglobulinemia, multiple myeloma, TNBC",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 80,
-    "last_funding_date": "2023-05",
-    "key_investors": ["Public (NASDAQ: CLRB)"],
-    "pipeline": ["Iopofosine I-131 (CLR 131) – Waldenstrom Phase II (pivotal, FDA Breakthrough, EMA filing Q3 2026)", "CLR 125 – TNBC Phase Ib (dosing Q1 2026)"],
-    "partnerships": ["Ionetix (Ac-225 and At-211 supply)"],
-    "notes": "FDA Breakthrough Designation for iopofosine in Waldenstrom; accelerated approval pathway. EMA filing planned Q3 2026. $13.2M cash at year-end; funded into Q3 2026.",
-    "source": "https://cellectar.com"
-  },
-  {
-    "id": 18,
-    "name": "ITM Isotope Technologies Munich",
-    "website": "https://itm-radiopharma.com",
-    "hq": "Garching, Germany",
-    "founded": 2005,
-    "description": "Radiopharmaceutical biotech developing targeted radionuclide therapeutics and diagnostics, plus commercial-scale isotope supply (Lu-177, Ac-225). FDA NDA accepted for ITM-11.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "n.c.a. Lu-177 / Ac-225 somatostatin and PSMA targeting",
-    "indication": "GEP-NETs, prostate cancer, renal cell carcinoma, glioblastoma",
-    "stage": "Clinical Phase III",
-    "funding_stage": "Public",
-    "total_funding_usd_m": 512,
-    "last_funding_date": "2025-11",
-    "key_investors": ["Public (Frankfurt: 0IJ)", "Blue Owl (up to $262.5M non-dilutive debt)"],
-    "pipeline": ["ITM-11 (n.c.a. Lu-177-edotreotide) – GEP-NETs NDA accepted, PDUFA Aug 28 2026", "ITM-94/ITM-91 theranostic pair – clear cell RCC Phase I/II (FDA Fast Track)", "ITM-31 – glioblastoma preclinical"],
-    "partnerships": ["AAA/Novartis (distribution)", "Orano (isotope supply)"],
-    "notes": "COMPETE Phase III met primary PFS endpoint vs everolimus. FDA NDA accepted Nov 2025, PDUFA Aug 28, 2026. Post-hoc ENETS 2026 data showed prolonged PFS and higher ORR in pancreatic NET subgroup. Secured up to $262.5M non-dilutive debt from Blue Owl.",
-    "source": "https://itm-radiopharma.com"
-  },
-  {
-    "id": 19,
-    "name": "Ratio Therapeutics",
-    "website": "https://ratiotherapeutics.com",
-    "hq": "Boston, MA",
-    "founded": 2021,
-    "description": "Novel radiopharmaceutical platform using bifunctional chelation and optimized targeting vectors for improved tumor uptake and reduced off-target toxicity.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Bifunctional chelation platform + Lu-177/Ac-225",
-    "indication": "FAP+ solid tumors, prostate, NETs, breast",
-    "stage": "Clinical Phase I",
-    "funding_stage": "Series B",
-    "total_funding_usd_m": 90,
-    "last_funding_date": "2025-03",
-    "key_investors": ["Vida Ventures", "Lightstone Ventures", "Takeda Ventures"],
-    "pipeline": ["FAP-targeted radiotherapeutic – Phase I (ATLAS, first cohort completed)", "SSTR2-targeted RLT – preclinical", "PSMA-targeted RLT – preclinical"],
-    "partnerships": [],
-    "notes": "$50M Series B (total >$90M). First cohort completed in ATLAS Phase I (FAP-targeted). New 65k sq ft manufacturing facility planned in Salt Lake City, UT (operational H2 2027). Marcel Reichen appointed CSO (Nov 2025).",
-    "source": "https://ratiotherapeutics.com"
-  },
-  {
-    "id": 20,
     "name": "Accuray",
     "website": "https://accuray.com",
     "hq": "Sunnyvale, CA",
@@ -373,194 +211,59 @@
     "funding_stage": "Public",
     "total_funding_usd_m": null,
     "last_funding_date": null,
-    "key_investors": ["Public (NASDAQ: ARAY)"],
-    "pipeline": ["CyberKnife S7 system", "Radixact TomoTherapy", "Synchrony real-time motion tracking"],
+    "key_investors": [
+      "Public (NASDAQ: ARAY)"
+    ],
+    "pipeline": [
+      "CyberKnife S7 system",
+      "Radixact TomoTherapy",
+      "Synchrony real-time motion tracking"
+    ],
     "partnerships": [],
     "notes": "Under financial pressure: stock below $1, restructuring with ~$25M annualized savings and workforce reductions (Dec 2025). FY2026 guidance $471-485M revenue. First CyberKnife S7 patients treated in Melbourne (Oct 2025). China business impacted by tariffs.",
-    "source": "https://accuray.com"
+    "source": "https://accuray.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
   },
   {
-    "id": 21,
-    "name": "Precirix",
-    "website": "https://precirix.com",
-    "hq": "Brussels, Belgium",
-    "founded": 2018,
-    "description": "Nanobody-based radioligand therapy platform using ultra-small camelid antibody fragments for rapid tumor targeting, fast blood clearance, and blood-brain barrier penetration.",
+    "id": 8,
+    "name": "Actinium Pharmaceuticals",
+    "website": "https://www.actiniumpharma.com/product-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
     "modality": "Radioligand Therapy (RLT)",
-    "technology": "Camelid single-domain antibody (nanobody) scaffolds + Lu-177/Ac-225/F-18",
-    "indication": "HER2+ cancers (incl brain mets), FAP+ solid tumors",
+    "technology": null,
+    "indication": null,
     "stage": "Clinical Phase I/II",
-    "funding_stage": "Series B",
-    "total_funding_usd_m": 120,
-    "last_funding_date": "2022-10",
-    "key_investors": ["Novo Holdings", "Sofinnova Partners"],
-    "pipeline": ["CAM-H2 (HER2) – Phase I/II breast/gastric incl brain mets", "CAM-FAP-Ac-225 – FAP+ tumors Phase I (FDA IND accepted Jul 2025)"],
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ATNM-400 (1)",
+      "Actimab-A (1)",
+      "Iomab-B (2)",
+      "Iomab-ACT (1b-2)"
+    ],
     "partnerships": [],
-    "notes": "Spin-out from VUB and SCK CEN (Belgium). EUR 80M Series B (2022). Remains independent (NOT acquired by Novartis). Nanobodies enable BBB penetration for brain metastases. CAM-FAP IND accepted Jul 2025.",
-    "source": "https://precirix.com"
+    "notes": null,
+    "source": "https://www.actiniumpharma.com/product-pipeline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "I-131"
+    ],
+    "targets": [
+      "CD-45",
+      "CD33"
+    ],
+    "moa": "Antibody"
   },
   {
-    "id": 22,
-    "name": "NorthStar Medical Radioisotopes",
-    "website": "https://northstarnm.com",
-    "hq": "Beloit, WI",
-    "founded": 2007,
-    "description": "US-based producer of high-purity medical radioisotopes including Actinium-225, Copper-67, Yttrium-90, and Molybdenum-99 for therapeutic and diagnostic applications.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Electron-accelerator and cyclotron-based isotope production (Ac-225, Cu-67, Y-90, Mo-99)",
-    "indication": "Pan-cancer isotope supply",
-    "stage": "Commercial",
-    "funding_stage": "Private",
-    "total_funding_usd_m": 150,
-    "last_funding_date": "2021-06",
-    "key_investors": ["US DOE (grants)", "Deerfield Management"],
-    "pipeline": ["Ac-225 commercial-scale production (confirmed routine Jan 2026)", "Cu-67 commercial supply", "Y-90 commercial supply", "Sc-47 development"],
-    "partnerships": ["Clarity Pharmaceuticals", "Convergent Therapeutics (expanded)", "BIOEMTECH (Ac-225 preclinical)", "Actinium Pharmaceuticals"],
-    "notes": "Confirmed routine commercial-scale n.c.a. Ac-225 production (Jan 2026) using electron-accelerator tech. 52k sq ft manufacturing center in Beloit (opened Oct 2024). Kathy Spencer-Pike appointed CCO (Dec 2025). Drug Master File submission to FDA expected 2026.",
-    "source": "https://northstarnm.com"
-  },
-  {
-    "id": 23,
-    "name": "Orano Med",
-    "website": "https://oranomed.com",
-    "hq": "Bessines-sur-Gartempe, France",
-    "founded": 2017,
-    "description": "Subsidiary of Orano (nuclear group) producing and supplying Lead-212 (Pb-212) for targeted alpha therapy developers worldwide, with growing therapeutic pipeline.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Lead-212 (Pb-212) isotope production and supply chain + 212Pb-Radio-DARPin platform",
-    "indication": "Pan-cancer isotope supply, NETs, DLL3+ tumors",
-    "stage": "Commercial",
-    "funding_stage": "Private",
-    "total_funding_usd_m": null,
-    "last_funding_date": null,
-    "key_investors": ["Orano (parent company)"],
-    "pipeline": ["AlphaMedix (212Pb-DOTAMTATE) – NETs Phase III (licensed to Sanofi)", "212Pb pretargeted radioimmunotherapy with Roche (Phase I expected H1 2026)", "MP0712 (DLL3-targeted 212Pb-Radio-DARPin) – approaching first-in-human"],
-    "partnerships": ["Sanofi (AlphaMedix license)", "Roche (pretargeted RIT collaboration)", "Molecular Partners (10 Radio-DARPin programs)", "Perspective Therapeutics"],
-    "notes": "World's primary Pb-212 supplier. Roche collaboration entered next phase (Dec 2025) with Phase 1 expected H1 2026. Expanded to 10 programs with Molecular Partners. AlphaMedix Phase 2 met all primary endpoints.",
-    "source": "https://oranomed.com"
-  },
-  {
-    "id": 25,
-    "name": "IBA (Ion Beam Applications)",
-    "website": "https://iba-worldwide.com",
-    "hq": "Louvain-la-Neuve, Belgium",
-    "founded": 1986,
-    "description": "Global leader in proton therapy systems, cyclotron technology, and dosimetry solutions for radiation oncology and nuclear medicine.",
-    "modality": "Proton Therapy",
-    "technology": "Cyclotron-based proton therapy systems (Proteus ONE, Proteus PLUS)",
-    "indication": "Pan-cancer (pediatric, CNS, head & neck, prostate)",
-    "stage": "Commercial",
-    "funding_stage": "Public",
-    "total_funding_usd_m": null,
-    "last_funding_date": null,
-    "key_investors": ["Public (Euronext: IBA)"],
-    "pipeline": ["Proteus ONE (single-room)", "Proteus PLUS (multi-room)", "DynamicARC (FDA submission targeted 2027)", "Flash proton therapy research"],
-    "partnerships": ["Seoul St. Mary's Hospital (3-room Proteus PLUS, Dec 2025)", "MacKay Memorial Hospital Taiwan (Proteus ONE, Jan 2026)"],
-    "notes": "50+ proton therapy centers installed globally. New Asia HQ in Beijing (Oct 2025). Q3 2025 equipment order intake EUR 195M (+6% YoY). DynamicARC phantom tests successful; Normandy Hadrontherapy first magnetic field gen targeted early 2026.",
-    "source": "https://iba-worldwide.com"
-  },
-  {
-    "id": 26,
-    "name": "Eckert & Ziegler",
-    "website": "https://ezag.com",
-    "hq": "Berlin, Germany",
-    "founded": 1992,
-    "description": "Global provider of isotope technology for medical, scientific, and industrial applications. Key supplier of Ga-68 generators, brachytherapy seeds, and therapeutic isotopes.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Radioisotope production (Ga-68, Y-90, Lu-177, I-131) + brachytherapy seeds",
-    "indication": "Pan-cancer diagnostics and therapy supply",
-    "stage": "Commercial",
-    "funding_stage": "Public",
-    "total_funding_usd_m": null,
-    "last_funding_date": null,
-    "key_investors": ["Public (NASDAQ: EZAG, Frankfurt: EUZ)"],
-    "pipeline": ["GalliaPharm Ga-68 generator (approved in Japan)", "Lu-177 no-carrier-added supply", "Y-90 PentixaTher (contract mfg for Pentixapharm)", "I-125 brachytherapy seeds"],
-    "partnerships": ["Novartis (Ga-68 supply)", "Pentixapharm (Y-90 CDMO)", "Multiple RLT developers"],
-    "notes": "9M 2025: sales EUR 224M (+4%), EBIT EUR 50.8M (+9%), net income +28%. Medical segment sales +15% to EUR 119.7M. FY2025 guidance ~EUR 320M sales. GalliaPharm approved in Japan.",
-    "source": "https://ezag.com"
-  },
-  {
-    "id": 27,
-    "name": "Alpha-9 Oncology",
-    "website": "https://www.a9oncology.com",
-    "hq": "San Francisco, CA",
-    "founded": 2021,
-    "description": "Clinical-stage radiopharmaceutical company developing a pipeline of differentiated radioligand therapies for cancer.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "Next-gen radioligand therapies (multiple targets)",
-    "indication": "Solid tumors",
-    "stage": "Clinical Phase I",
-    "funding_stage": "Series C",
-    "total_funding_usd_m": 250,
-    "last_funding_date": "2025-11",
-    "key_investors": ["Series C investors", "Former Lantheus executives"],
-    "pipeline": ["Multiple RLT candidates in clinical development"],
-    "partnerships": [],
-    "notes": "$175M oversubscribed Series C (Nov 2025). Total raised >$250M. New CEO from Lantheus (Nov 2025). Robust clinical pipeline.",
-    "source": "https://www.a9oncology.com"
-  },
-  {
-    "id": 28,
-    "name": "Convergent Therapeutics",
-    "website": "https://convergenttherapeutics.com",
-    "hq": "New York, NY",
-    "founded": 2021,
-    "description": "Developing targeted radioantibody therapies using Actinium-225 for cancer, with integrated isotope supply chain via NorthStar partnership.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Ac-225 radioantibody conjugates",
-    "indication": "Prostate cancer, solid tumors",
-    "stage": "Clinical Phase I/II",
-    "funding_stage": "Series A",
-    "total_funding_usd_m": 90,
-    "last_funding_date": "2024-01",
-    "key_investors": ["Private investors"],
-    "pipeline": ["CONV01-alpha (Ac-225 radioantibody) – advancing in clinical development"],
-    "partnerships": ["NorthStar Medical Radioisotopes (expanded manufacturing partnership)"],
-    "notes": "$90M Series A. Expanded NorthStar partnership for late-stage Ac-225 radioantibody manufacturing. Securing isotope supply is a key competitive advantage in the Ac-225 space.",
-    "source": "https://convergenttherapeutics.com"
-  },
-  {
-    "id": 29,
-    "name": "Radionetics Oncology",
-    "website": "https://radionetics.com",
-    "hq": "San Diego, CA",
-    "founded": 2020,
-    "description": "Developing GPCR-targeted radioligand therapies for solid tumors, backed by a major Eli Lilly strategic alliance.",
-    "modality": "Radioligand Therapy (RLT)",
-    "technology": "GPCR-targeted small molecule radioligand therapies",
-    "indication": "Solid tumors",
-    "stage": "Pre-clinical",
-    "funding_stage": "Series B",
-    "total_funding_usd_m": 192,
-    "last_funding_date": "2024-06",
-    "key_investors": ["Eli Lilly", "Frazier Life Sciences", "Avalon Ventures"],
-    "pipeline": ["GPCR-targeted RLT candidates – preclinical/IND-enabling"],
-    "partnerships": ["Eli Lilly ($140M upfront + $1B acquisition option)"],
-    "notes": "Eli Lilly strategic alliance with $140M upfront payment and option to acquire for ~$1B. Part of Lilly's radiopharmaceutical strategy alongside Aktis Oncology and POINT Biopharma.",
-    "source": "https://radionetics.com"
-  },
-  {
-    "id": 30,
-    "name": "Mariana Oncology",
-    "website": "https://marianaoncology.com",
-    "hq": "Cambridge, MA",
-    "founded": 2022,
-    "description": "Developing targeted alpha therapies using Actinium-225. Acquired by Novartis in 2024 to expand their radiopharmaceutical portfolio beyond Pluvicto.",
-    "modality": "Targeted Alpha Therapy (TAT)",
-    "technology": "Actinium-225 targeted alpha therapy",
-    "indication": "Small cell lung cancer, solid tumors",
-    "stage": "Pre-clinical",
-    "funding_stage": "Acquired",
-    "total_funding_usd_m": null,
-    "last_funding_date": "2024-09",
-    "key_investors": ["Novartis (acquirer)"],
-    "pipeline": ["MC-339 – SCLC (preclinical/early clinical)"],
-    "partnerships": ["Novartis acquisition ($1B upfront + $750M milestones)"],
-    "notes": "Acquired by Novartis for $1B upfront + $750M in milestones (2024). Expands Novartis TAT capabilities beyond Lu-177 Pluvicto franchise into alpha-emitting radiopharmaceuticals.",
-    "source": "https://marianaoncology.com"
-  },
-  {
-    "id": 31,
+    "id": 9,
     "name": "Actithera",
     "website": "https://actithera.com",
     "hq": "Vienna, Austria",
@@ -573,10 +276,4560 @@
     "funding_stage": "Series A",
     "total_funding_usd_m": 76,
     "last_funding_date": "2025-03",
-    "key_investors": ["Series A investors"],
-    "pipeline": ["FAP-targeted RLT – preclinical/IND-enabling"],
+    "key_investors": [
+      "Series A investors"
+    ],
+    "pipeline": [
+      "FAP-targeted RLT – preclinical/IND-enabling"
+    ],
     "partnerships": [],
     "notes": "$75.5M oversubscribed Series A (2025). FAP (fibroblast activation protein) is a high-interest target in the RLT space due to broad expression across solid tumor stroma.",
-    "source": "https://actithera.com"
+    "source": "https://actithera.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Peptide, Small Molecule, Small Molecule & Peptide"
+  },
+  {
+    "id": 10,
+    "name": "Advanced Innovative Partners",
+    "website": "https://advancedinnovativepartners.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "AIP 303 (Preclinical)",
+      "AIP 304 (Preclinical)",
+      "AIP 306 (Preclinical)",
+      "AIP 308 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://advancedinnovativepartners.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 11,
+    "name": "Advancell",
+    "website": "https://www.advancell.com.au/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ADVC001 (1-2)",
+      "ADVC002 (Preclinical)",
+      "ADCV003 (Preclinical)",
+      "Lung, Prostate, H&N (Preclinical)",
+      "Lung, Pancreatic (Discovery)",
+      "RCC, Ovarian (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.advancell.com.au/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 12,
+    "name": "Affibody",
+    "website": "https://www.affibody.se/our-pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ABY-271 (1)",
+      "ABY-071 (Preclinical)",
+      "Discovery Pipeline (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.affibody.se/our-pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "B7-H3",
+      "HER2"
+    ],
+    "moa": "Fusion Protein"
+  },
+  {
+    "id": 13,
+    "name": "Akiram Therapeutics",
+    "website": "https://akiramtherapeutics.se/our-therapy/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "AKIR001 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://akiramtherapeutics.se/our-therapy/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CD44v6"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 14,
+    "name": "Aktis Oncology",
+    "website": "https://aktisoncology.com",
+    "hq": "Boston, MA",
+    "founded": 2021,
+    "description": "Next-generation targeted radiotherapeutics using engineered mini-proteins (Affibodies, DARPins) for superior tumor targeting with low off-target toxicity.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Engineered mini-protein targeting scaffolds + Lu-177/Ac-225",
+    "indication": "Nectin-4+ cancers, B7-H3+ cancers, solid tumors",
+    "stage": "Clinical Phase I",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 664,
+    "last_funding_date": "2026-01",
+    "key_investors": [
+      "Public (NASDAQ: AKTS)",
+      "Eli Lilly",
+      "Merck",
+      "Novartis",
+      "BMS",
+      "Versant Ventures"
+    ],
+    "pipeline": [
+      "AKY-1189 (Nectin-4) – Phase Ib (NECTINIUM-2, FDA Fast Track Mar 2026)",
+      "AKY-2519 (B7-H3) – IND planned 2026"
+    ],
+    "partnerships": [
+      "Eli Lilly ($60M upfront + $1.1B milestones)"
+    ],
+    "notes": "IPO'd Jan 2026 raising $318M — first biotech IPO of 2026. Lilly purchased $100M of shares. FDA Fast Track for AKY-1189 (Mar 2026). Nine US sites open; data expected Q1 2027.",
+    "source": "https://aktisoncology.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "B7-H3",
+      "Nectin-4"
+    ],
+    "moa": "Miniprotein"
+  },
+  {
+    "id": 15,
+    "name": "Albega",
+    "website": "https://www.albega-medical.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.albega-medical.com/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 16,
+    "name": "Alpha Fusion Inc",
+    "website": "https://alpha-fusion.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "af-001 (1)",
+      "af-002 (Phase 1)",
+      "af-003 (IND)",
+      "Tanabe-Veneno (Discovery)",
+      "In-house Program (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://alpha-fusion.com/pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [
+      "LAT1",
+      "NIS",
+      "PSMA",
+      "Small Molecule"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 17,
+    "name": "Alpha Tau Medical",
+    "website": "https://alphatau.com",
+    "hq": "Jerusalem, Israel",
+    "founded": 2016,
+    "description": "Alpha DaRT (Diffusing Alpha-emitters Radiation Therapy) — intratumoral Ra-224 seeds delivering alpha particles throughout solid tumors.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Alpha DaRT intratumoral seeds (Ra-224)",
+    "indication": "Skin SCC, head & neck, GBM, prostate, PDAC",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 150,
+    "last_funding_date": "2022-02",
+    "key_investors": [
+      "Public (NASDAQ: DRTS)"
+    ],
+    "pipeline": [
+      "Alpha DaRT – recurrent cSCC (FDA PMA submitted Jan 2026)",
+      "Alpha DaRT – head & neck (Japan Shonin approval Feb 2026)",
+      "Alpha DaRT – recurrent GBM (Breakthrough Device, US pilot)",
+      "Alpha DaRT – prostate (FDA IDE approved)",
+      "Alpha DaRT – PDAC (ASCO GI 2026: 22% ORR, 81% DCR)"
+    ],
+    "partnerships": [],
+    "notes": "Japan marketing approval Feb 2026 for unresectable H&N cancer. FDA PMA first module submitted Jan 2026 for recurrent cSCC. First GBM patient treated at Ohio State Dec 2025. Five concurrent US trials in 2026.",
+    "source": "https://alphatau.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ra-224"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 18,
+    "name": "Alpha-9 Oncology",
+    "website": "https://www.a9oncology.com",
+    "hq": "San Francisco, CA",
+    "founded": 2021,
+    "description": "Clinical-stage radiopharmaceutical company developing a pipeline of differentiated radioligand therapies for cancer.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Next-gen radioligand therapies (multiple targets)",
+    "indication": "Solid tumors",
+    "stage": "Clinical Phase I",
+    "funding_stage": "Series C",
+    "total_funding_usd_m": 250,
+    "last_funding_date": "2025-11",
+    "key_investors": [
+      "Series C investors",
+      "Former Lantheus executives"
+    ],
+    "pipeline": [
+      "Multiple RLT candidates in clinical development"
+    ],
+    "partnerships": [],
+    "notes": "$175M oversubscribed Series C (Nov 2025). Total raised >$250M. New CEO from Lantheus (Nov 2025). Robust clinical pipeline.",
+    "source": "https://www.a9oncology.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "MC1R"
+    ],
+    "moa": null
+  },
+  {
+    "id": 19,
+    "name": "Andarix",
+    "website": "https://andarix.com/treatments/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Tozaride (1-2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://andarix.com/treatments/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Re-188"
+    ],
+    "targets": [
+      "SSTR2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 20,
+    "name": "Aprit Biotech AB",
+    "website": "https://www.guventures.com/aprit",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.guventures.com/aprit",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [],
+    "moa": "Antibody"
+  },
+  {
+    "id": 21,
+    "name": "Aptamer Sciences",
+    "website": "https://aptsci.com/kr/pipeline/pipeline.php",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ApRC (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://aptsci.com/kr/pipeline/pipeline.php",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 22,
+    "name": "Archeus",
+    "website": "https://www.archeustech.com/#ourpublications",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ART-101 (IND)",
+      "ART-706 (IND)",
+      "NM600 (Preclinical)",
+      "NM600 (Preclinical)",
+      "NM600 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.archeustech.com/#ourpublications",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177",
+      "Y-90"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 23,
+    "name": "Ariceum",
+    "website": "https://ariceum-therapeutics.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "SSO110 (1)",
+      "ATT001 (1)",
+      "SSO110 (Preclinical)",
+      "ATT002 (Discovery)",
+      "ATT003 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://ariceum-therapeutics.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "I-123",
+      "Lu-177"
+    ],
+    "targets": [
+      "PARP",
+      "SSTR2"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 24,
+    "name": "ARTBIO",
+    "website": "https://artbio.com",
+    "hq": "Cambridge, MA",
+    "founded": 2022,
+    "description": "Targeted radiotherapies using Lead-212 via proprietary AlphaDirect generator technology. Spin-out from Harvard/MGH.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Pb-212 AlphaDirect generator + antibody-targeted",
+    "indication": "Prostate cancer, hematologic malignancies, solid tumors",
+    "stage": "Clinical Phase I",
+    "funding_stage": "Series B",
+    "total_funding_usd_m": 245,
+    "last_funding_date": "2025-07",
+    "key_investors": [
+      "GV",
+      "Atlas Venture",
+      "Deerfield Management"
+    ],
+    "pipeline": [
+      "AB001 (212Pb-NG001) – mCRPC Phase I (ARTISAN)",
+      "AB002 – solid tumors (pre-IND)"
+    ],
+    "partnerships": [],
+    "notes": "$132M Series B closed Jul 2025 (total ~$245M). First two cohorts dosed in ARTISAN Phase 1 for mCRPC (Jan 2026). Jonathan Freeman Ph.D. joined as CBO.",
+    "source": "https://artbio.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 25,
+    "name": "Asta Bio",
+    "website": "https://www.astabiotx.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.astabiotx.com/",
+    "region": "US-Canada",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [],
+    "moa": "Antibody"
+  },
+  {
+    "id": 26,
+    "name": "AstraZeneca",
+    "website": "https://www.astrazeneca.com/our-therapy-areas/pipeline.html#other",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "FPI-2265 (2)",
+      "AZD2068 (1)",
+      "FPI-2059 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.astrazeneca.com/our-therapy-areas/pipeline.html#other",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "EGFR/cMET",
+      "NTSR1",
+      "PSMA"
+    ],
+    "moa": "Antibody, Small Molecule"
+  },
+  {
+    "id": 27,
+    "name": "Atonco",
+    "website": "https://atonco-pharma.com/en/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ATO-101 (1)",
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://atonco-pharma.com/en/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [
+      "CAIX"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 28,
+    "name": "Bayer",
+    "website": "https://www.bayer.com/en/pharma/development-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "BAY3546828 (1)",
+      "BAY 3563254 (1)",
+      "BAY3547926 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.bayer.com/en/pharma/development-pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "GPC3",
+      "PSMA"
+    ],
+    "moa": "Antibody, Small Molecule"
+  },
+  {
+    "id": 29,
+    "name": "BetaGlue Therapeutics",
+    "website": "https://betaglue.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "YntraDose (1)",
+      "YntraDose (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://betaglue.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Y-90"
+    ],
+    "targets": [],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 30,
+    "name": "Bicycle",
+    "website": "https://www.bicycletherapeutics.com/pipeline/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "DKFZ (IND)",
+      "Novartis (Preclinical)",
+      "Bayer (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.bicycletherapeutics.com/pipeline/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "MT1-MMP & EphA2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 31,
+    "name": "BioKin Pharma",
+    "website": "http://en.baili-pharm.com/about.aspx?mid=110&sid=",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "BL-ARC001 (IND)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "http://en.baili-pharm.com/about.aspx?mid=110&sid=",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 32,
+    "name": "Bivision",
+    "website": "https://www.bivisionpharma.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "JH02 (1-2)",
+      "JH04 (1)",
+      "JH12 (Preclinical)",
+      "JH28 (Preclinical)",
+      "JHXX (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.bivisionpharma.com/pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA",
+      "Peptides-Small Molecules"
+    ],
+    "moa": "Peptide, Peptides-Small Molecules"
+  },
+  {
+    "id": 33,
+    "name": "Blue Earth Therapeutics",
+    "website": "https://www.blueearththerapeutics.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "177Lu-rhPSMA-10.1 (1-2)",
+      "225Ac-rhPSMA-10.1 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.blueearththerapeutics.com/pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 34,
+    "name": "Bristol Myers Squibb",
+    "website": "BMS Pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase III",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RYZ-101 (3)",
+      "RYZ-401 (1)",
+      "RYZ-801 (1)",
+      "RYZ-701 (IND)",
+      "RAYZ-8009 (IND)",
+      "Pre-Clinical (Preclinical)",
+      "Pre-Clinical (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "BMS Pipeline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "ACP3",
+      "GPC3",
+      "SSTR"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 35,
+    "name": "C-Biomex",
+    "website": "https://www.cbiomex.com/en/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CBT-001 (Preclinical)",
+      "CBT-002 (Discovery)",
+      "CBT-004 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.cbiomex.com/en/pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CAIX",
+      "FAP",
+      "SSTR2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 36,
+    "name": "CellBion",
+    "website": "http://www.cellbion.co.kr/?r=reen&c=99/108",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "177 Lu-DGUL (1-2)",
+      "177 Lu-DGUL+Pembro (1)",
+      "225 Ac-Antibody (Preclinical)",
+      "225 Ac-DGUL (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "http://www.cellbion.co.kr/?r=reen&c=99/108",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Antibody, Peptide"
+  },
+  {
+    "id": 37,
+    "name": "Cellectar Biosciences",
+    "website": "https://cellectar.com",
+    "hq": "Florham Park, NJ",
+    "founded": 2002,
+    "description": "Phospholipid Drug Conjugate (PDC) platform delivering radioiodine and other payloads selectively to cancer cells via lipid raft targeting.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Phospholipid Drug Conjugate (PDC) + Iodine-131",
+    "indication": "Waldenstrom macroglobulinemia, multiple myeloma, TNBC",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 80,
+    "last_funding_date": "2023-05",
+    "key_investors": [
+      "Public (NASDAQ: CLRB)"
+    ],
+    "pipeline": [
+      "Iopofosine I-131 (CLR 131) – Waldenstrom Phase II (pivotal, FDA Breakthrough, EMA filing Q3 2026)",
+      "CLR 125 – TNBC Phase Ib (dosing Q1 2026)"
+    ],
+    "partnerships": [
+      "Ionetix (Ac-225 and At-211 supply)"
+    ],
+    "notes": "FDA Breakthrough Designation for iopofosine in Waldenstrom; accelerated approval pathway. EMA filing planned Q3 2026. $13.2M cash at year-end; funded into Q3 2026.",
+    "source": "https://cellectar.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "I-125",
+      "I-131"
+    ],
+    "targets": [
+      "PLE"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 38,
+    "name": "Chomi",
+    "website": "https://www.chomixbio.com/pre-clinical-pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CHXM-001 (Preclinical)",
+      "CHXM-002 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.chomixbio.com/pre-clinical-pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 39,
+    "name": "CIS Biopharm",
+    "website": "https://cisbiopharma.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CBO-003 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://cisbiopharma.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "CD276"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 40,
+    "name": "Clarity Pharmaceuticals",
+    "website": "https://claritypharmaceuticals.com",
+    "hq": "Sydney, Australia",
+    "founded": 2014,
+    "description": "Copper theranostics platform using Cu-64 (PET imaging) and Cu-67 (therapy) with SAR chelation technology.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Copper-67 / Copper-64 theranostics (SAR chelation)",
+    "indication": "Prostate cancer, NETs",
+    "stage": "Clinical Phase II/III",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 120,
+    "last_funding_date": "2023-11",
+    "key_investors": [
+      "Public (ASX: CU6)"
+    ],
+    "pipeline": [
+      "64Cu-SAR-bisPSMA – prostate Phase III (AMPLIFY, n=220, FDA Fast Track)",
+      "SECuRE (Cu-67-PSMA) – prostate Phase II",
+      "64Cu-SARTATE – NETs Phase III (planned 2026)",
+      "SAR-bisFAP – Phase I (planned 2026)"
+    ],
+    "partnerships": [
+      "Bayer (collaboration)",
+      "Nusano (Cu-64 and Cu-67 supply from Utah facility)"
+    ],
+    "notes": "AMPLIFY Phase III began mid-May 2025. FDA Fast Track for 64Cu-SAR-bisPSMA in biochemical recurrence. Nusano isotope supply agreements for both Cu-64 (early 2026) and Cu-67 (mid-2026).",
+    "source": "https://claritypharmaceuticals.com",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Cu-67"
+    ],
+    "targets": [
+      "FAP",
+      "HER2",
+      "PSMA"
+    ],
+    "moa": "Antibody, Peptide"
+  },
+  {
+    "id": 41,
+    "name": "Coherant Biopharma",
+    "website": "https://www.coherentbio.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CBP-1203 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.coherentbio.com/pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 42,
+    "name": "Convergent Therapeutics",
+    "website": "https://convergenttherapeutics.com",
+    "hq": "New York, NY",
+    "founded": 2021,
+    "description": "Developing targeted radioantibody therapies using Actinium-225 for cancer, with integrated isotope supply chain via NorthStar partnership.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Ac-225 radioantibody conjugates",
+    "indication": "Prostate cancer, solid tumors",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Series A",
+    "total_funding_usd_m": 90,
+    "last_funding_date": "2024-01",
+    "key_investors": [
+      "Private investors"
+    ],
+    "pipeline": [
+      "CONV01-alpha (Ac-225 radioantibody) – advancing in clinical development"
+    ],
+    "partnerships": [
+      "NorthStar Medical Radioisotopes (expanded manufacturing partnership)"
+    ],
+    "notes": "$90M Series A. Expanded NorthStar partnership for late-stage Ac-225 radioantibody manufacturing. Securing isotope supply is a key competitive advantage in the Ac-225 space.",
+    "source": "https://convergenttherapeutics.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 43,
+    "name": "Cortalix",
+    "website": "https://cortalix.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Lu-177 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://cortalix.com/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "PDGFRB"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 44,
+    "name": "Cstone Pharmaceuticals",
+    "website": "https://www.cstonepharma.com/develop/p3.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CS5005-R (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.cstonepharma.com/develop/p3.html",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "SSTR2"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 45,
+    "name": "Curadh",
+    "website": "https://curadhmtr.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://curadhmtr.com/",
+    "region": "US-Canada",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 46,
+    "name": "Curasight",
+    "website": "https://www.curasight.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "uTreat (IND)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.curasight.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "uPAR"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 47,
+    "name": "Curium Pharma",
+    "website": "https://curiumpharma.com",
+    "hq": "Boston, MA",
+    "founded": 2019,
+    "description": "Global leader in diagnostic and therapeutic radiopharmaceuticals, offering contract manufacturing and a growing oncology pipeline.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Lu-177 / F-18 / Ga-68 radiopharmaceutical manufacturing",
+    "indication": "Prostate cancer, NETs",
+    "stage": "Commercial",
+    "funding_stage": "Private",
+    "total_funding_usd_m": null,
+    "last_funding_date": "2025-11",
+    "key_investors": [
+      "CapVest Partners"
+    ],
+    "pipeline": [
+      "Lu-177 zadavotide guraxetan – mCRPC",
+      "177Lu-PSMA-I&T – Japan registrational trial (first patient Feb 2026)",
+      "Ga-68 PSMA PET agents"
+    ],
+    "partnerships": [
+      "PeptiDream/PDRadiopharma (Japan)",
+      "Nucleis (acquired Apr 2025)",
+      "Monrol (acquired)"
+    ],
+    "notes": "Recapitalized by CapVest Partners at ~$7B valuation (Nov 2025) — largest transaction in nuclear medicine globally. Moved global HQ to Boston. Launched Curium Biopharma discovery unit.",
+    "source": "https://curiumpharma.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA",
+      "SSTR2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 48,
+    "name": "CytoSite Bio",
+    "website": "https://cytositebio.com/pipeline/#wcl-pipelines",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CSB-421 (IND)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://cytositebio.com/pipeline/#wcl-pipelines",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "Granzyme B"
+    ],
+    "moa": null
+  },
+  {
+    "id": 49,
+    "name": "Defense Therapeutics",
+    "website": "Defence RLT Funding",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "Defence RLT Funding",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 50,
+    "name": "Eckert & Ziegler",
+    "website": "https://ezag.com",
+    "hq": "Berlin, Germany",
+    "founded": 1992,
+    "description": "Global provider of isotope technology for medical, scientific, and industrial applications. Key supplier of Ga-68 generators, brachytherapy seeds, and therapeutic isotopes.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Radioisotope production (Ga-68, Y-90, Lu-177, I-131) + brachytherapy seeds",
+    "indication": "Pan-cancer diagnostics and therapy supply",
+    "stage": "Commercial",
+    "funding_stage": "Public",
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [
+      "Public (NASDAQ: EZAG, Frankfurt: EUZ)"
+    ],
+    "pipeline": [
+      "GalliaPharm Ga-68 generator (approved in Japan)",
+      "Lu-177 no-carrier-added supply",
+      "Y-90 PentixaTher (contract mfg for Pentixapharm)",
+      "I-125 brachytherapy seeds"
+    ],
+    "partnerships": [
+      "Novartis (Ga-68 supply)",
+      "Pentixapharm (Y-90 CDMO)",
+      "Multiple RLT developers"
+    ],
+    "notes": "9M 2025: sales EUR 224M (+4%), EBIT EUR 50.8M (+9%), net income +28%. Medical segment sales +15% to EUR 119.7M. FY2025 guidance ~EUR 320M sales. GalliaPharm approved in Japan.",
+    "source": "https://ezag.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ga-68",
+      "I-131",
+      "Lu-177",
+      "Y-90"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 51,
+    "name": "Eli Radiopharmaceuticals",
+    "website": "https://www.eliradiopharma.com/science/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Eli-301 (Preclinical)",
+      "Eli-201 (Preclinical)",
+      "Eli-411 (Preclinical)",
+      "Eli-601 (Preclinical)",
+      "Eli-301 (Preclinical)",
+      "Eli-501 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.eliradiopharma.com/science/pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 52,
+    "name": "Full-Life Technologies",
+    "website": "https://www.full-life.com/radio/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "FL-020 (1)",
+      "NTSR-1 (Preclinical)",
+      "SSTR2 (Preclinical)",
+      "c-MET (Preclinical)",
+      "B7H3 (Preclinical)",
+      "Multiple Early Programs (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.full-life.com/radio/pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "B7-H3",
+      "NTSR-1",
+      "PSMA",
+      "SSTR2",
+      "c-MET"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 53,
+    "name": "Fusion Pharmaceuticals",
+    "website": "https://fusionpharma.com",
+    "hq": "Hamilton, Ontario, Canada",
+    "founded": 2014,
+    "description": "Targeted alpha therapies and radioimmunotherapy platform. Acquired by AstraZeneca in March 2024, now fully integrated.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Actinium-225 / IgG antibody conjugates",
+    "indication": "Solid tumors (prostate, breast, lung)",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Acquired",
+    "total_funding_usd_m": 300,
+    "last_funding_date": "2024-03",
+    "key_investors": [
+      "AstraZeneca (acquirer)",
+      "Johnson & Johnson Innovation"
+    ],
+    "pipeline": [
+      "FPI-2265 (Ac-225-PSMA) – prostate Phase II (AlphaBreak)",
+      "AZD2068 – EGFR/cMET solid tumors Phase I"
+    ],
+    "partnerships": [
+      "AstraZeneca acquisition $2.4B (2024)"
+    ],
+    "notes": "Acquired by AstraZeneca for $2.4B in Mar 2024, fully integrated. FPI-2265 AlphaBreak readout expected H2 2025. AZD2068 data expected 2026+.",
+    "source": "https://fusionpharma.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 54,
+    "name": "FutureChem",
+    "website": "https://futurechem.co.kr/business/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "177 Lu-FC705 (2)",
+      "225 Ac Dotadipep (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://futurechem.co.kr/business/pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 55,
+    "name": "Fuzionaire",
+    "website": "https://fuzionairetx.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Prostate Cancer (Preclinical)",
+      "Prostate Cancer (Discovery)",
+      "Undisclosed (Discovery)",
+      "Proof of Concept (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://fuzionairetx.com/pipeline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "GRPR",
+      "GRPR+TBA",
+      "PSMA+GRPR",
+      "SSTR"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 56,
+    "name": "Gaiaso Therapeutics",
+    "website": "https://www.gaiasotheranostics.com/our-science/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.gaiasotheranostics.com/our-science/",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 57,
+    "name": "GeneQuantum Healthcare",
+    "website": "https://www.genequantum.com/pipeline.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "77Lu-NBC-02 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.genequantum.com/pipeline.html",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 58,
+    "name": "Genetech",
+    "website": "Genentech PeptiDream Collab",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "Genentech PeptiDream Collab",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Peptide"
+  },
+  {
+    "id": 59,
+    "name": "Glytherix",
+    "website": "https://glytherix.com/therapeutics/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "177Lu-Miltuximab (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://glytherix.com/therapeutics/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "GPC-1"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 60,
+    "name": "GrayBio",
+    "website": "GrayBio Inc",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)",
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "GrayBio Inc",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 61,
+    "name": "Helix BioPharma",
+    "website": "https://www.helixbiopharma.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.helixbiopharma.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "CEACAM6"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 62,
+    "name": "Hengrui",
+    "website": "https://www.hengrui.com/en/pipeline.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase III",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "HRS-4357 (3)",
+      "HRS-6768 (1-2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.hengrui.com/en/pipeline.html",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 63,
+    "name": "Honeybear Biosciences",
+    "website": "https://www.honeybearbio.com/pipeline-page182",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "HB002 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.honeybearbio.com/pipeline-page182",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "Trop2"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 64,
+    "name": "IBA (Ion Beam Applications)",
+    "website": "https://iba-worldwide.com",
+    "hq": "Louvain-la-Neuve, Belgium",
+    "founded": 1986,
+    "description": "Global leader in proton therapy systems, cyclotron technology, and dosimetry solutions for radiation oncology and nuclear medicine.",
+    "modality": "Proton Therapy",
+    "technology": "Cyclotron-based proton therapy systems (Proteus ONE, Proteus PLUS)",
+    "indication": "Pan-cancer (pediatric, CNS, head & neck, prostate)",
+    "stage": "Commercial",
+    "funding_stage": "Public",
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [
+      "Public (Euronext: IBA)"
+    ],
+    "pipeline": [
+      "Proteus ONE (single-room)",
+      "Proteus PLUS (multi-room)",
+      "DynamicARC (FDA submission targeted 2027)",
+      "Flash proton therapy research"
+    ],
+    "partnerships": [
+      "Seoul St. Mary's Hospital (3-room Proteus PLUS, Dec 2025)",
+      "MacKay Memorial Hospital Taiwan (Proteus ONE, Jan 2026)"
+    ],
+    "notes": "50+ proton therapy centers installed globally. New Asia HQ in Beijing (Oct 2025). Q3 2025 equipment order intake EUR 195M (+6% YoY). DynamicARC phantom tests successful; Normandy Hadrontherapy first magnetic field gen targeted early 2026.",
+    "source": "https://iba-worldwide.com",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 65,
+    "name": "Immunome",
+    "website": "https://immunome.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "IM-3050 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://immunome.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 66,
+    "name": "Inversion Therapeutics",
+    "website": "https://redtreevc.com/company/inversion-therapeutics/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://redtreevc.com/company/inversion-therapeutics/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 67,
+    "name": "Iprogen",
+    "website": "https://iprogen.com/technology/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ARC-009 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://iprogen.com/technology/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 68,
+    "name": "IsoBio Inc",
+    "website": "IsoBio ASP Isotopes Seed Funding",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)",
+      "Undisclosed (Discovery)",
+      "Undisclosed (Discovery)",
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "IsoBio ASP Isotopes Seed Funding",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [],
+    "moa": "Antibody"
+  },
+  {
+    "id": 69,
+    "name": "ITM Isotope Technologies Munich",
+    "website": "https://itm-radiopharma.com",
+    "hq": "Garching, Germany",
+    "founded": 2005,
+    "description": "Radiopharmaceutical biotech developing targeted radionuclide therapeutics and diagnostics, plus commercial-scale isotope supply (Lu-177, Ac-225). FDA NDA accepted for ITM-11.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "n.c.a. Lu-177 / Ac-225 somatostatin and PSMA targeting",
+    "indication": "GEP-NETs, prostate cancer, renal cell carcinoma, glioblastoma",
+    "stage": "Clinical Phase III",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 512,
+    "last_funding_date": "2025-11",
+    "key_investors": [
+      "Public (Frankfurt: 0IJ)",
+      "Blue Owl (up to $262.5M non-dilutive debt)"
+    ],
+    "pipeline": [
+      "ITM-11 (n.c.a. Lu-177-edotreotide) – GEP-NETs NDA accepted, PDUFA Aug 28 2026",
+      "ITM-94/ITM-91 theranostic pair – clear cell RCC Phase I/II (FDA Fast Track)",
+      "ITM-31 – glioblastoma preclinical"
+    ],
+    "partnerships": [
+      "AAA/Novartis (distribution)",
+      "Orano (isotope supply)"
+    ],
+    "notes": "COMPETE Phase III met primary PFS endpoint vs everolimus. FDA NDA accepted Nov 2025, PDUFA Aug 28, 2026. Post-hoc ENETS 2026 data showed prolonged PFS and higher ORR in pancreatic NET subgroup. Secured up to $262.5M non-dilutive debt from Blue Owl.",
+    "source": "https://itm-radiopharma.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [
+      "CAIX",
+      "CAXII",
+      "FRα",
+      "PSMA",
+      "SSTR"
+    ],
+    "moa": "Anitbody, Peptide"
+  },
+  {
+    "id": 70,
+    "name": "Kelun-Biotech",
+    "website": "https://en.kelun-biotech.com/product.aspx?mid=165#165",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "SKB107 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://en.kelun-biotech.com/product.aspx?mid=165#165",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 71,
+    "name": "Lantheus Holdings",
+    "website": "https://lantheus.com",
+    "hq": "North Billerica, MA",
+    "founded": 1956,
+    "description": "Leading radiopharmaceutical company with commercial PSMA PET product and growing oncology pipeline. FY2025 revenue $1.54B.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "PSMA-targeted diagnostics and therapeutics",
+    "indication": "Prostate cancer, NETs, Alzheimer's",
+    "stage": "Commercial",
+    "funding_stage": "Public",
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [
+      "Public (NASDAQ: LNTH)"
+    ],
+    "pipeline": [
+      "PYLARIFY TruVu (F-18 PSMA PET) – FDA approved",
+      "PNT2003 (Lutathera radioequivalent) – tentative ANDA approval Mar 2026",
+      "OCTEVY – pending FDA approval",
+      "MK-6240 (tau PET) – pending FDA approval"
+    ],
+    "partnerships": [
+      "Novartis",
+      "Life Molecular Imaging (acquired)",
+      "Evergreen Theragnostics (acquired)"
+    ],
+    "notes": "FY2025 revenue $1.54B. Divested legacy SPECT business to SHINE Technologies (Jan 2026). Up to four FDA approvals expected in 2026. FY2026 guidance: $1.4-1.45B revenue.",
+    "source": "https://lantheus.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CCK2R",
+      "GRPR",
+      "LRRC15",
+      "SSTR2",
+      "TROP2"
+    ],
+    "moa": "Antibody, Peptide"
+  },
+  {
+    "id": 72,
+    "name": "Lilly",
+    "website": "https://www.lillyoncologypipeline.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "LY4337713 (1)",
+      "LY4257496 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.lillyoncologypipeline.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP",
+      "GRPR"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 73,
+    "name": "LNCYT",
+    "website": "https://en.dc-lnc.com/pro1",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Website down"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://en.dc-lnc.com/pro1",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 74,
+    "name": "Lumina Pharmaceuticals",
+    "website": "https://luminapharma.com/technology/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://luminapharma.com/technology/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 75,
+    "name": "mAbTree Biologics",
+    "website": "https://www.mabtree.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MT0001-ADC (IND)",
+      "MT0001+MT0002 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.mabtree.com/pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Antibody"
+  },
+  {
+    "id": 76,
+    "name": "Mariana Oncology",
+    "website": "https://marianaoncology.com",
+    "hq": "Cambridge, MA",
+    "founded": 2022,
+    "description": "Developing targeted alpha therapies using Actinium-225. Acquired by Novartis in 2024 to expand their radiopharmaceutical portfolio beyond Pluvicto.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Actinium-225 targeted alpha therapy",
+    "indication": "Small cell lung cancer, solid tumors",
+    "stage": "Clinical Phase I",
+    "funding_stage": "Acquired",
+    "total_funding_usd_m": null,
+    "last_funding_date": "2024-09",
+    "key_investors": [
+      "Novartis (acquirer)"
+    ],
+    "pipeline": [
+      "MC-339 – SCLC (preclinical/early clinical)"
+    ],
+    "partnerships": [
+      "Novartis acquisition ($1B upfront + $750M milestones)"
+    ],
+    "notes": "Acquired by Novartis for $1B upfront + $750M in milestones (2024). Expands Novartis TAT capabilities beyond Lu-177 Pluvicto franchise into alpha-emitting radiopharmaceuticals.",
+    "source": "https://marianaoncology.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "DLL3"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 77,
+    "name": "Matrisome Bio",
+    "website": "https://matrisomebio.com/technology/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://matrisomebio.com/technology/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "ECM"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 78,
+    "name": "MaxiNovel",
+    "website": "https://www.maxinovel.com/en/pipeline.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MAX-7 (1)",
+      "MAX-80391 (2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.maxinovel.com/en/pipeline.html",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "PD-L1"
+    ],
+    "moa": null
+  },
+  {
+    "id": 79,
+    "name": "Medley Therapeutics",
+    "website": "https://www.medleytx.com/technology",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MED402 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.medleytx.com/technology",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 80,
+    "name": "Mevion Medical Systems",
+    "website": "https://mevion.com",
+    "hq": "Littleton, MA",
+    "founded": 2004,
+    "description": "Compact superconducting proton therapy systems designed to fit in conventional hospital vaults, dramatically expanding proton therapy access.",
+    "modality": "Proton Therapy",
+    "technology": "Compact superconducting proton accelerator",
+    "indication": "Pan-cancer (brain, prostate, pediatric)",
+    "stage": "Commercial",
+    "funding_stage": "Private",
+    "total_funding_usd_m": 290,
+    "last_funding_date": "2019-01",
+    "key_investors": [
+      "Warburg Pincus",
+      "Khosla Ventures",
+      "New Enterprise Associates"
+    ],
+    "pipeline": [
+      "MEVION S250i Hyperscan",
+      "MEVION S250-FIT (FDA cleared Sep 2025, CE Mark Feb 2026)"
+    ],
+    "partnerships": [
+      "Stanford Health Care",
+      "BayCare",
+      "Atlantic Health",
+      "UNC Health"
+    ],
+    "notes": "S250-FIT is world's first proton therapy system designed for existing linac vaults. FDA cleared Sep 2025, CE Mark Feb 2026. Nine institutional contracts signed globally.",
+    "source": "https://mevion.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 81,
+    "name": "Modulation Therapeutics",
+    "website": "https://www.modulationtherapeutics.com/pipeline-test",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MTI-201 (1)",
+      "MTI-301 (1)",
+      "MTI-101 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.modulationtherapeutics.com/pipeline-test",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "CD-44",
+      "MC1R",
+      "SCF-1"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 82,
+    "name": "Molecular Partners",
+    "website": "https://www.molecularpartners.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MP0712 (1-2)",
+      "MP0726 (Preclinical)",
+      "Radio C (Discovery)",
+      "RadioD (Discovery)",
+      "RadioE (Discovery)",
+      "RadioF (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.molecularpartners.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "DLL3",
+      "MSLN"
+    ],
+    "moa": "Recombinant Protein"
+  },
+  {
+    "id": 83,
+    "name": "Monopar Therapeutics",
+    "website": "https://www.monopartx.com/pipeline/pipeline-chart",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NMPR-101 (1a)",
+      "NMPR-101 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.monopartx.com/pipeline/pipeline-chart",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "uPAR"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 84,
+    "name": "MTTI",
+    "website": "https://www.mtarget.com/PIPE.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Lu-177 EBTATE (1)",
+      "Ac-225 EBTATE (Preclinical)",
+      "Lu-177-EBRGD (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.mtarget.com/PIPE.html",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "SSTR2",
+      "αvβ3"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 85,
+    "name": "Naya Therapeutics",
+    "website": "https://www.nayatx.com/astatine-211-targeted-alpha-therapies",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NY-303 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.nayatx.com/astatine-211-targeted-alpha-therapies",
+    "region": "US-Canada",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [
+      "GPC3"
+    ],
+    "moa": null
+  },
+  {
+    "id": 86,
+    "name": "Netris Pharma",
+    "website": "https://www.netrispharma.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NP137P (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.netrispharma.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "Netrin-1"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 87,
+    "name": "New Radiomedicine Technology Co Ltd",
+    "website": "https://en.nrtmedtech.com/TechnologyProduct.html#sA_s1",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NT020 (IND)",
+      "NT026 (Discovery)",
+      "Undisclosed (Discovery)",
+      "Platform (Discovery)",
+      "Platform (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://en.nrtmedtech.com/TechnologyProduct.html#sA_s1",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 88,
+    "name": "NextPoint",
+    "website": "https://nextpointtx.com/our-pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RLT (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://nextpointtx.com/our-pipeline/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 89,
+    "name": "Node",
+    "website": "https://www.nodepharma.no/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.nodepharma.no/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ra-223"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 90,
+    "name": "Norroy Bioscience",
+    "website": "https://www.norroybiopharm.com/Our-Pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NY108 (1-2)",
+      "NY104 (2)",
+      "NY118 (Preclinical)",
+      "NY122 (Preclinical)",
+      "NY124 (Preclinical)",
+      "NY125 (Preclinical)",
+      "NY216 (IIT)",
+      "NY127 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.norroybiopharm.com/Our-Pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "CAIX",
+      "FAP",
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 91,
+    "name": "NorthStar Medical Radioisotopes",
+    "website": "https://northstarnm.com",
+    "hq": "Beloit, WI",
+    "founded": 2007,
+    "description": "US-based producer of high-purity medical radioisotopes including Actinium-225, Copper-67, Yttrium-90, and Molybdenum-99 for therapeutic and diagnostic applications.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Electron-accelerator and cyclotron-based isotope production (Ac-225, Cu-67, Y-90, Mo-99)",
+    "indication": "Pan-cancer isotope supply",
+    "stage": "Commercial",
+    "funding_stage": "Private",
+    "total_funding_usd_m": 150,
+    "last_funding_date": "2021-06",
+    "key_investors": [
+      "US DOE (grants)",
+      "Deerfield Management"
+    ],
+    "pipeline": [
+      "Ac-225 commercial-scale production (confirmed routine Jan 2026)",
+      "Cu-67 commercial supply",
+      "Y-90 commercial supply",
+      "Sc-47 development"
+    ],
+    "partnerships": [
+      "Clarity Pharmaceuticals",
+      "Convergent Therapeutics (expanded)",
+      "BIOEMTECH (Ac-225 preclinical)",
+      "Actinium Pharmaceuticals"
+    ],
+    "notes": "Confirmed routine commercial-scale n.c.a. Ac-225 production (Jan 2026) using electron-accelerator tech. 52k sq ft manufacturing center in Beloit (opened Oct 2024). Kathy Spencer-Pike appointed CCO (Dec 2025). Drug Master File submission to FDA expected 2026.",
+    "source": "https://northstarnm.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Cu-67",
+      "Y-90"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 92,
+    "name": "Novartis",
+    "website": "https://www.novartis.com/research-development/novartis-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase III",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "AAA817 (3)",
+      "AAA603-177Lu-NeoB (1)",
+      "AAA614 (1-2)",
+      "ESP359 (1)",
+      "FXX489 177Lu-NNS309 (1)",
+      "B7H3 (Preclinical)",
+      "Discovery Programs (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.novartis.com/research-development/novartis-pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "B7-H3",
+      "DLL3",
+      "FAP",
+      "GRPR",
+      "PSMA"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 93,
+    "name": "Nucleus RadioPharma",
+    "website": "https://nucleusrad.com",
+    "hq": "Davidson, NC",
+    "founded": 2022,
+    "description": "CDMO specializing in end-to-end radiopharmaceutical development and manufacturing. Isotope-agnostic facilities compliant with 21 CFR Part 210/211.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "CDMO / Manufacturing",
+    "indication": "Pan-cancer",
+    "stage": "Commercial",
+    "funding_stage": "Series A",
+    "total_funding_usd_m": 74,
+    "last_funding_date": "2025-01",
+    "key_investors": [
+      "AstraZeneca",
+      "Private investors"
+    ],
+    "pipeline": [
+      "Contract manufacturing for RLT developers",
+      "Radiopharmaceutical infusion system (alpha dev)"
+    ],
+    "partnerships": [
+      "Clarity Pharmaceuticals (Cu-67-SAR-bisPSMA manufacturing)"
+    ],
+    "notes": "Former FDA Commissioner Dr. Stephen Hahn named CEO. $74M total raised incl $56M Series A with AstraZeneca extension. Facilities in Rochester MN, Spring House PA (late 2026), Mesa AZ (mid-2027). 100k+ sq ft total.",
+    "source": "https://nucleusrad.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 94,
+    "name": "Nuclidium",
+    "website": "https://nuclidium.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NU101 (Preclinical)",
+      "NU201 (Preclinical)",
+      "Undisclosed (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://nuclidium.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Cu-67"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA",
+      "SSTR"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 95,
+    "name": "NuView Life Sciences",
+    "website": "https://www.nuviewlifesciences.com/contact-and-support",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "NV-VPAC1 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.nuviewlifesciences.com/contact-and-support",
+    "region": "US-Canada",
+    "isotopes": [
+      "Cu-67"
+    ],
+    "targets": [
+      "VPAC1"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 96,
+    "name": "Onco Invent",
+    "website": "https://www.oncoinvent.com/technology/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Rhadspherin (2)",
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.oncoinvent.com/technology/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ra-224"
+    ],
+    "targets": [
+      "Microparticles"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 97,
+    "name": "Oncodesign Precision Medicine",
+    "website": "https://www.oncodesign.com/our-pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MRT1 (Discovery)",
+      "MRT2 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.oncodesign.com/our-pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 98,
+    "name": "OncoOne",
+    "website": "https://www.oncoone.com/platform-pre-targit/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ON-05 (Discovery)",
+      "ON-06 (Discovery)",
+      "ON-07 (Discovery)",
+      "ON-09 (Discovery)",
+      "ON-10 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.oncoone.com/platform-pre-targit/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "FRα",
+      "HER2",
+      "NSLN",
+      "oxMIF"
+    ],
+    "moa": "Antibodies, Antibody"
+  },
+  {
+    "id": 99,
+    "name": "OncoTAb",
+    "website": "https://oncotab.com/science-technology/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "hTAB004 (Preclinical)",
+      "tMUC1 Nanobody (Discovery)",
+      "tMUC1  Peptide (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://oncotab.com/science-technology/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "MUC1",
+      "tMUC1"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 100,
+    "name": "OncoTherapy Sciences Inc",
+    "website": "https://www.oncotherapy.co.jp/en/research-development/clinical-development-pipelines/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "OTSA101 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.oncotherapy.co.jp/en/research-development/clinical-development-pipelines/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Y-90"
+    ],
+    "targets": [],
+    "moa": "Antibody"
+  },
+  {
+    "id": 101,
+    "name": "Orano Med",
+    "website": "https://oranomed.com",
+    "hq": "Bessines-sur-Gartempe, France",
+    "founded": 2017,
+    "description": "Subsidiary of Orano (nuclear group) producing and supplying Lead-212 (Pb-212) for targeted alpha therapy developers worldwide, with growing therapeutic pipeline.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Lead-212 (Pb-212) isotope production and supply chain + 212Pb-Radio-DARPin platform",
+    "indication": "Pan-cancer isotope supply, NETs, DLL3+ tumors",
+    "stage": "Commercial",
+    "funding_stage": "Private",
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [
+      "Orano (parent company)"
+    ],
+    "pipeline": [
+      "AlphaMedix (212Pb-DOTAMTATE) – NETs Phase III (licensed to Sanofi)",
+      "212Pb pretargeted radioimmunotherapy with Roche (Phase I expected H1 2026)",
+      "MP0712 (DLL3-targeted 212Pb-Radio-DARPin) – approaching first-in-human"
+    ],
+    "partnerships": [
+      "Sanofi (AlphaMedix license)",
+      "Roche (pretargeted RIT collaboration)",
+      "Molecular Partners (10 Radio-DARPin programs)",
+      "Perspective Therapeutics"
+    ],
+    "notes": "World's primary Pb-212 supplier. Roche collaboration entered next phase (Dec 2025) with Phase 1 expected H1 2026. Expanded to 10 programs with Molecular Partners. AlphaMedix Phase 2 met all primary endpoints.",
+    "source": "https://oranomed.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "GRPR",
+      "PSMA"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 102,
+    "name": "Parabilis Medicines",
+    "website": "https://parabilismed.com/program/helicon-enabled-alpha-radioligand-therapies/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "HEART (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://parabilismed.com/program/helicon-enabled-alpha-radioligand-therapies/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [],
+    "moa": "Peptide"
+  },
+  {
+    "id": 103,
+    "name": "Pentixapharm",
+    "website": "https://www.pentixapharm.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "PT-002 (1-2)",
+      "PT-001 (IND)",
+      "90Y-PentixaTher (1-2)",
+      "PT-00X (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.pentixapharm.com/pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177",
+      "Y-90"
+    ],
+    "targets": [
+      "CXCR4"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 104,
+    "name": "PepLib",
+    "website": "https://www.peplib.com/Product-Details/3.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Target 1 (Preclinical)",
+      "Target 2 (Preclinical)",
+      "Target 3 (Preclinical)",
+      "Target 4 (Preclinical)",
+      "Target 5 (Discovery)",
+      "Target 6 (Discovery)",
+      "Target 7 (Discovery)",
+      "Target 8 (Discovery)",
+      "Target 9 (Discovery)",
+      "Target 10 (Discovery)",
+      "Target 11 (Discovery)",
+      "Target 12 (Discovery)",
+      "Target 13 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.peplib.com/Product-Details/3.html",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "B7-H3",
+      "CAIX",
+      "DLL3",
+      "EphA2",
+      "FAP",
+      "FGFR2",
+      "FRα",
+      "GPC3",
+      "IL-13Rα2",
+      "MSLN",
+      "NECTIN-4",
+      "TROP1",
+      "TROP2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 105,
+    "name": "PeptiDream",
+    "website": "https://www.peptidream.com/en/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "PD-32766 (IND)",
+      "PD-29875 (IND)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.peptidream.com/en/pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "CAIX",
+      "CLDN18.2"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 106,
+    "name": "Perseus Proteomics",
+    "website": "https://www.ppmx.com/en/rd/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "PPMX-T002 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.ppmx.com/en/rd/pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "CDH3"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 107,
+    "name": "Perspective Therapeutics",
+    "website": "https://perspectivetherapeutics.com",
+    "hq": "New York, NY",
+    "founded": 2009,
+    "description": "Clinical-stage radiopharmaceutical company focused on alpha-particle emitting therapies using Lead-212 for solid tumors.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Lead-212 (Pb-212) radiopharmaceuticals",
+    "indication": "NETs, melanoma, FAP+ solid tumors",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Public",
+    "total_funding_usd_m": 325,
+    "last_funding_date": "2025-06",
+    "key_investors": [
+      "Public (NYSE: CATX)"
+    ],
+    "pipeline": [
+      "VMT-alpha-NET (Pb-212-DOTAMTATE) – NETs Phase I/II",
+      "VMT01 (Pb-212) – melanoma Phase I (mono + nivo)",
+      "PSV359 (FAP) – solid tumors Phase I"
+    ],
+    "partnerships": [
+      "Orano Med (Pb-212 supply)"
+    ],
+    "notes": "Formerly Viewpoint Molecular Targeting. ASCO-GI 2026: no DLTs in 56 patients, durable disease control. $175M stock offering to fund ops into late 2026+. Manufacturing expansion underway.",
+    "source": "https://perspectivetherapeutics.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "FAP",
+      "MC1R",
+      "SSTR2"
+    ],
+    "moa": "Antibody, Peptide"
+  },
+  {
+    "id": 108,
+    "name": "Philogen",
+    "website": "https://www.philogen.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "OncoFAP (1)",
+      "OncoACP3 (Preclinical)",
+      "OncoCAIX (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.philogen.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "ACP3",
+      "CAIX",
+      "FAP"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 109,
+    "name": "Photina BioSciences",
+    "website": "https://redtreevc.com/company/photinia-biosciences/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://redtreevc.com/company/photinia-biosciences/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 110,
+    "name": "Plus Therapeutics",
+    "website": "https://plustherapeutics.com/188rnl-bam/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "186RNL (1-2)",
+      "188RNL-BAM (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://plustherapeutics.com/188rnl-bam/",
+    "region": "US-Canada",
+    "isotopes": [
+      "Re-186",
+      "Re-188"
+    ],
+    "targets": [],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 111,
+    "name": "POINT Biopharma",
+    "website": "https://pointbiopharma.com",
+    "hq": "Indianapolis, IN",
+    "founded": 2018,
+    "description": "Radiopharmaceutical company developing Lu-177 PSMA therapy for prostate cancer. Acquired by Eli Lilly in 2023. PNT2002 deprioritized.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Lutetium-177 PSMA-targeted small molecule therapy",
+    "indication": "Metastatic castration-resistant prostate cancer",
+    "stage": "Clinical Phase III",
+    "funding_stage": "Acquired",
+    "total_funding_usd_m": 470,
+    "last_funding_date": "2023-10",
+    "key_investors": [
+      "Eli Lilly (acquirer)",
+      "Public (NASDAQ: PNT — delisted)"
+    ],
+    "pipeline": [
+      "PNT2002 (Lu-177-PSMA-I&T) – mCRPC Phase III (SPLASH) — deprioritized",
+      "PNT2004 (FAP-targeting) – FRONTIER Phase I ongoing"
+    ],
+    "partnerships": [
+      "Eli Lilly acquisition $1.4B (2023)"
+    ],
+    "notes": "Acquired by Eli Lilly for $1.4B in Oct 2023. SPLASH met primary rPFS endpoint (9.5 vs 6.0 months) but OS disappointing. Lilly deprioritized PNT2002 NDA filing; radiopharma strategy now centers on Aktis Oncology and Radionetics.",
+    "source": "https://pointbiopharma.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 112,
+    "name": "Precirix",
+    "website": "https://precirix.com",
+    "hq": "Brussels, Belgium",
+    "founded": 2018,
+    "description": "Nanobody-based radioligand therapy platform using ultra-small camelid antibody fragments for rapid tumor targeting, fast blood clearance, and blood-brain barrier penetration.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Camelid single-domain antibody (nanobody) scaffolds + Lu-177/Ac-225/F-18",
+    "indication": "HER2+ cancers (incl brain mets), FAP+ solid tumors",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Series B",
+    "total_funding_usd_m": 120,
+    "last_funding_date": "2022-10",
+    "key_investors": [
+      "Novo Holdings",
+      "Sofinnova Partners"
+    ],
+    "pipeline": [
+      "CAM-H2 (HER2) – Phase I/II breast/gastric incl brain mets",
+      "CAM-FAP-Ac-225 – FAP+ tumors Phase I (FDA IND accepted Jul 2025)"
+    ],
+    "partnerships": [],
+    "notes": "Spin-out from VUB and SCK CEN (Belgium). EUR 80M Series B (2022). Remains independent (NOT acquired by Novartis). Nanobodies enable BBB penetration for brain metastases. CAM-FAP IND accepted Jul 2025.",
+    "source": "https://precirix.com",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Pb-212"
+    ],
+    "targets": [
+      "FAP",
+      "FR",
+      "HER2"
+    ],
+    "moa": "Anitbody, Antibody"
+  },
+  {
+    "id": 113,
+    "name": "Primo Biotechnology",
+    "website": "https://www.primobt.com/en/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "PB-TL01 (Preclinical)",
+      "PB-TT01 (Preclinical)",
+      "PB-TL012 (Preclinical)",
+      "PB-TT012 (Preclinical)",
+      "Other Solid Tumors (Undisclosed)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.primobt.com/en/pipeline/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [
+      "FOLH1",
+      "PSMA"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 114,
+    "name": "RadioMedix",
+    "website": "https://radiomedix.com",
+    "hq": "Houston, TX",
+    "founded": 2008,
+    "description": "Develops radiopharmaceutical therapeutics and diagnostics with strong Pb-212 isotope supply chain capabilities.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Pb-212 / Lu-177 / Ga-68 DOTA-conjugated agents",
+    "indication": "NETs, GBM, PDAC",
+    "stage": "Clinical Phase I/II",
+    "funding_stage": "Private",
+    "total_funding_usd_m": 30,
+    "last_funding_date": "2020-01",
+    "key_investors": [
+      "Private"
+    ],
+    "pipeline": [
+      "AlphaMedix (212Pb-DOTAMTATE) – NETs Phase III (licensed to Sanofi)",
+      "203Pb-RMX-VH-PIB – GBM/PDAC Phase I (first patient Sep 2025)",
+      "RAHA-100 bench-top Pb-212 generator (launched Jun 2025)"
+    ],
+    "partnerships": [
+      "Sanofi (AlphaMedix exclusive license)",
+      "MD Anderson Cancer Center",
+      "Vect-Horus",
+      "Thor Medical (Th-228 supply)",
+      "Van Overeem Nuclear B.V. (Th-228 supply)"
+    ],
+    "notes": "AlphaMedix Phase 2 met all primary efficacy endpoints in GEP-NETs; licensed to Sanofi (Sep 2024) for global commercialization, entering Phase 3. Proprietary RAHA-100 Pb-212 generator launched Jun 2025.",
+    "source": "https://radiomedix.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "CPC3",
+      "PSMA"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 115,
+    "name": "Radiomer Therapeutics",
+    "website": "https://www.radiomer.com/pipline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RT-M103M (Preclinical)",
+      "RT-C1 (Discovery)",
+      "RT-T2 (Discovery)",
+      "RT-M2 (Discovery)",
+      "RT-A1C (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.radiomer.com/pipline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "c-MET"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 116,
+    "name": "Radionetics Oncology",
+    "website": "https://radionetics.com",
+    "hq": "San Diego, CA",
+    "founded": 2020,
+    "description": "Developing GPCR-targeted radioligand therapies for solid tumors, backed by a major Eli Lilly strategic alliance.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "GPCR-targeted small molecule radioligand therapies",
+    "indication": "Solid tumors",
+    "stage": "Pre-clinical",
+    "funding_stage": "Series B",
+    "total_funding_usd_m": 192,
+    "last_funding_date": "2024-06",
+    "key_investors": [
+      "Eli Lilly",
+      "Frazier Life Sciences",
+      "Avalon Ventures"
+    ],
+    "pipeline": [
+      "GPCR-targeted RLT candidates – preclinical/IND-enabling"
+    ],
+    "partnerships": [
+      "Eli Lilly ($140M upfront + $1B acquisition option)"
+    ],
+    "notes": "Eli Lilly strategic alliance with $140M upfront payment and option to acquire for ~$1B. Part of Lilly's radiopharmaceutical strategy alongside Aktis Oncology and POINT Biopharma.",
+    "source": "https://radionetics.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "MC2R"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 117,
+    "name": "Radiopharm Theranostics",
+    "website": "https://radiopharmtheranostics.com/our-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RAD204 (1)",
+      "RAD202 (1)",
+      "RV101 (1)",
+      "RAD401 (1)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://radiopharmtheranostics.com/our-pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [
+      "B7-H3",
+      "HER2",
+      "KLK3",
+      "PD-L1"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 118,
+    "name": "Ratio Therapeutics",
+    "website": "https://ratiotherapeutics.com",
+    "hq": "Boston, MA",
+    "founded": 2021,
+    "description": "Novel radiopharmaceutical platform using bifunctional chelation and optimized targeting vectors for improved tumor uptake and reduced off-target toxicity.",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "Bifunctional chelation platform + Lu-177/Ac-225",
+    "indication": "FAP+ solid tumors, prostate, NETs, breast",
+    "stage": "Clinical Phase I",
+    "funding_stage": "Series B",
+    "total_funding_usd_m": 90,
+    "last_funding_date": "2025-03",
+    "key_investors": [
+      "Vida Ventures",
+      "Lightstone Ventures",
+      "Takeda Ventures"
+    ],
+    "pipeline": [
+      "FAP-targeted radiotherapeutic – Phase I (ATLAS, first cohort completed)",
+      "SSTR2-targeted RLT – preclinical",
+      "PSMA-targeted RLT – preclinical"
+    ],
+    "partnerships": [],
+    "notes": "$50M Series B (total >$90M). First cohort completed in ATLAS Phase I (FAP-targeted). New 65k sq ft manufacturing facility planned in Salt Lake City, UT (operational H2 2027). Marcel Reichen appointed CSO (Nov 2025).",
+    "source": "https://ratiotherapeutics.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP",
+      "GRPR",
+      "SSTR2"
+    ],
+    "moa": null
+  },
+  {
+    "id": 119,
+    "name": "RayzeBio",
+    "website": "https://rayzebio.com",
+    "hq": "San Diego, CA",
+    "founded": 2020,
+    "description": "Targeted alpha therapies using Actinium-225 for solid tumors. Acquired by Bristol Myers Squibb in 2024.",
+    "modality": "Targeted Alpha Therapy (TAT)",
+    "technology": "Actinium-225 radiopharmaceuticals",
+    "indication": "Solid tumors (GEP-NETs, lung, prostate, breast, SCLC)",
+    "stage": "Clinical Phase III",
+    "funding_stage": "Acquired",
+    "total_funding_usd_m": 510,
+    "last_funding_date": "2024-01",
+    "key_investors": [
+      "Bristol Myers Squibb (acquirer)",
+      "Versant Ventures",
+      "GV"
+    ],
+    "pipeline": [
+      "RYZ101 (Ac-225-DOTATATE) – GEP-NETs Phase III (ACTION-1)",
+      "RYZ101 – HR+/HER2- breast Phase Ib",
+      "RYZ101 – ES-SCLC Phase Ib",
+      "OncoACP3 (licensed from Philochem) – prostate"
+    ],
+    "partnerships": [
+      "BMS acquisition $4.1B (2024)",
+      "Philochem license $350M upfront + $1B+ milestones (Jun 2025)"
+    ],
+    "notes": "Acquired by BMS for $4.1B in Jan 2024. New 77k sq ft Indianapolis manufacturing facility (Jul 2025). Phase 1b RYZ101 showed 29.4% ORR. Enrollment temporarily halted due to Ac-225 isotope shortage.",
+    "source": "https://rayzebio.com",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "ACP3",
+      "GPC3",
+      "SSTR"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 120,
+    "name": "RefleXion Medical",
+    "website": "https://reflexion.com",
+    "hq": "Hayward, CA",
+    "founded": 2009,
+    "description": "Biology-guided radiotherapy (BgRT) — real-time PET-guided radiation delivery targeting tumor biology during treatment.",
+    "modality": "External Beam Radiotherapy (EBRT)",
+    "technology": "Biology-guided radiotherapy (BgRT) / PET-linac",
+    "indication": "Lung, bone metastases",
+    "stage": "Commercial",
+    "funding_stage": "Private",
+    "total_funding_usd_m": 395,
+    "last_funding_date": "2022-11",
+    "key_investors": [
+      "ARCH Venture Partners",
+      "General Electric",
+      "Venrock"
+    ],
+    "pipeline": [
+      "RefleXion X2 system (FDA cleared Jan 2026)",
+      "SCINTIX therapy",
+      "BgRT REVEAL trials"
+    ],
+    "partnerships": [
+      "GE HealthCare"
+    ],
+    "notes": "Next-gen X2 FDA cleared Jan 2026 with 20x PET sensitivity improvement for primary and metastatic lung/bone tumors. Clinical data from PREMIER Registry presented at ASTRO 2025.",
+    "source": "https://reflexion.com",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 121,
+    "name": "Rhine Pharma",
+    "website": "https://rhine-pharma.com/#pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I/II",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "RHN001-Tx (2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://rhine-pharma.com/#pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Re-188"
+    ],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 122,
+    "name": "Roche",
+    "website": "Roche-OranoMed Collab",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "212Pb-CEA-PRIT (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "Roche-OranoMed Collab",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Pb-212"
+    ],
+    "targets": [
+      "CEA"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 123,
+    "name": "ScinnoHub",
+    "website": "http://www.scinnohub.com/en/cpgx/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "http://www.scinnohub.com/en/cpgx/",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "PSMA"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 124,
+    "name": "Shasqi",
+    "website": "https://www.shasqi.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.shasqi.com/pipeline",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 125,
+    "name": "Shuttle Pharmaceuticals",
+    "website": "https://shuttlepharma.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://shuttlepharma.com/pipeline/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "PSMA-B"
+    ],
+    "moa": null
+  },
+  {
+    "id": 126,
+    "name": "Sinotau",
+    "website": "https://www.sinotau.com/en/innovating/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase III",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "XTR008 (3)",
+      "XTR010 (1-2)",
+      "XTR012 (ANDA)",
+      "XTR017 (1)",
+      "XTR021 (Preclinical)",
+      "XTR022 (Preclinical)",
+      "XTR024 (Preclinical)",
+      "XTR025 (Undisclosed)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.sinotau.com/en/innovating/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177",
+      "Ra-223"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA",
+      "SSTR",
+      "SSTR2"
+    ],
+    "moa": "Peptide, Small Molecule"
+  },
+  {
+    "id": 127,
+    "name": "SK Bio",
+    "website": "https://www.skbp.com/eng/pipeline/pipeline.do",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "SKL37321 (Preclinical)",
+      "ROR1 Project (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.skbp.com/eng/pipeline/pipeline.do",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CAIX",
+      "ROR1"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 128,
+    "name": "Smart Nuclide Pharmaceutical Technology Company",
+    "website": "https://www.smartnucl.com/en/archives/products/default",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "SNA040 (Preclinical)",
+      "SNA040 (Preclinical)",
+      "SNA028 (Preclinical)",
+      "SNA028 (Preclinical)",
+      "SNA025 (Preclinical)",
+      "SNA025 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.smartnucl.com/en/archives/products/default",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "CLDN18.2",
+      "GD2"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 129,
+    "name": "Soricemed",
+    "website": "https://www.soricimed.com/radioligand_therapy.htm",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.soricimed.com/radioligand_therapy.htm",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [
+      "TRPV6"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 130,
+    "name": "Spago Nanomedical",
+    "website": "https://spagonanomedical.se/portfolio/#spago-nanomedical-s-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Tumorad (1-2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://spagonanomedical.se/portfolio/#spago-nanomedical-s-pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "Nanoparticles"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 131,
+    "name": "Speer Medical Technologies",
+    "website": "https://speermedicaltechnologies.com/oncology-specialist/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "MB-1702 (Preclinical)",
+      "NR-80BR (Undisclosed)",
+      "DR-18621 (Undisclosed)",
+      "GD-CNS (Undisclosed)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://speermedicaltechnologies.com/oncology-specialist/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 132,
+    "name": "Starget",
+    "website": "https://stargetpharma.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "DOTA-PTR-58 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://stargetpharma.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225"
+    ],
+    "targets": [
+      "SSTR3"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 133,
+    "name": "Starpharma",
+    "website": "https://starpharma.com/dep-pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "DEP Radiopharmaceutical (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://starpharma.com/dep-pipeline",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [
+      "HER2"
+    ],
+    "moa": null
+  },
+  {
+    "id": 134,
+    "name": "Tagworks",
+    "website": "https://www.tagworkspharma.com/pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "TGW211 (0-1)",
+      "TGW221 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.tagworkspharma.com/pipeline",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "HER2"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 135,
+    "name": "TE Meds",
+    "website": "https://www.temeds.com/te-1132/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "CA19-9 ARC (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.temeds.com/te-1132/",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CA19-9"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 136,
+    "name": "Telix Pharmaceuticals",
+    "website": "https://telixpharma.com",
+    "hq": "Melbourne, Australia",
+    "founded": 2017,
+    "description": "Commercial-stage biopharmaceutical company focused on theranostic radiopharmaceuticals. FY2025 revenue US$804M (+56% YoY).",
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": "PSMA / carbonic anhydrase IX / bone-targeting, Lu-177 and Zr-89 agents",
+    "indication": "Prostate cancer, renal cell carcinoma, glioma, bone cancer",
+    "stage": "Commercial",
+    "funding_stage": "Public",
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [
+      "Public (ASX: TLX)"
+    ],
+    "pipeline": [
+      "Illuccix (Ga-68 PSMA PET) – commercial (China Phase 3 met primary endpoint)",
+      "TLX591-Tx (Lu-177 PSMA) – prostate Phase III (ProstACT Global)",
+      "TLX250-CDx (Zircaix) – kidney imaging BLA resubmission",
+      "TLX101-CDx (Pixclara) – brain cancer imaging NDA resubmission",
+      "TLX090-Tx (Sm-153-DOTMP) – bone cancer Phase I (SOLACE)"
+    ],
+    "partnerships": [
+      "Isotope supply agreements (ANSTO, NorthStar)"
+    ],
+    "notes": "FY2025 revenue US$804M (+56% YoY). FY2026 guidance US$950-970M. Received CRLs on TLX250-CDx and TLX101-CDx in 2025, resubmissions in progress. Illuccix China Phase 3 PPV 94.8%.",
+    "source": "https://telixpharma.com",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "At-211",
+      "I-131",
+      "Lu-177",
+      "Sm-153",
+      "Y-90"
+    ],
+    "targets": [
+      "Bone",
+      "CAIX",
+      "CD66",
+      "FAP",
+      "LAT",
+      "LAT1/2",
+      "PDGFRα",
+      "PSMA"
+    ],
+    "moa": "Antibody, Small Molecule"
+  },
+  {
+    "id": 137,
+    "name": "TetraKit Technologies",
+    "website": "https://tetrakit.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "DualFAPi-5 (Preclinical)",
+      "DualFapi-5 (Discovery)",
+      "AstraTate (Discovery)",
+      "3BP-TBD (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://tetrakit.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "At-211",
+      "I-131"
+    ],
+    "targets": [
+      "FAP"
+    ],
+    "moa": "Small Molecule"
+  },
+  {
+    "id": 138,
+    "name": "TheraPaint",
+    "website": "https://www.therapaintbio.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.therapaintbio.com/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Peptide"
+  },
+  {
+    "id": 139,
+    "name": "Torpedo",
+    "website": "https://torpedopharma.com/technology",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://torpedopharma.com/technology",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Tb-161"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 140,
+    "name": "Trevarx Biomedical",
+    "website": "https://trevarx.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://trevarx.com/",
+    "region": "US-Canada",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 141,
+    "name": "TRIMT",
+    "website": "https://www.trimt.de/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Therahexin (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.trimt.de/",
+    "region": "EU-Middle East",
+    "isotopes": [],
+    "targets": [
+      "αvβ6"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 142,
+    "name": "TwoStep Therapeutics",
+    "website": "https://twosteptx.com/our-science/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Undisclosed (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://twosteptx.com/our-science/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 143,
+    "name": "Vitruviae",
+    "website": "https://www.vitruviae.com/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "VRAD600 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.vitruviae.com/",
+    "region": "US-Canada",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 144,
+    "name": "VitsGen",
+    "website": "https://vitsgen.com/Pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "VG-01 (Preclinical)",
+      "VG-01 (Preclinical)",
+      "VG-02 (Discovery)",
+      "VG-02 (Discovery)",
+      "New Targets (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://vitsgen.com/Pipeline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Ac-225",
+      "Lu-177"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA"
+    ],
+    "moa": "FAP"
+  },
+  {
+    "id": 145,
+    "name": "Y-Mabs Therapeutics",
+    "website": "https://ymabs.com/our-science/radiopharmaceuticals/#pipeline",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Clinical Phase I",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "GD2-SADA (1)",
+      "CD38-SADA (1)",
+      "Y-ST01-PRIT (Preclinical)",
+      "Y-ST02-PRIT (Discovery)",
+      "Y-ST03-PRIT (Preclinical)",
+      "Y-ST04-PRIT (Discovery)",
+      "Y-ST05-PRIT (Discovery)",
+      "Y-ST06-PRIT (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://ymabs.com/our-science/radiopharmaceuticals/#pipeline",
+    "region": "US-Canada",
+    "isotopes": [
+      "Lu-177"
+    ],
+    "targets": [
+      "CD38",
+      "GD2"
+    ],
+    "moa": "Recombinant Protein"
+  },
+  {
+    "id": 146,
+    "name": "Ymmunobio",
+    "website": "https://ymmunobio.com/pipeline/",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "YB-830 (Preclinical)",
+      "YB-831 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://ymmunobio.com/pipeline/",
+    "region": "EU-Middle East",
+    "isotopes": [
+      "Lu-177",
+      "Tb-161"
+    ],
+    "targets": [
+      "NPTXR"
+    ],
+    "moa": "Antibody"
+  },
+  {
+    "id": 147,
+    "name": "Yunnan Baiyao",
+    "website": "https://www.yunnanbaiyao.com.cn/list/ynbyEn/3/295/auto/20/0.html",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "INR102 (1-2)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.yunnanbaiyao.com.cn/list/ynbyEn/3/295/auto/20/0.html",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": null
+  },
+  {
+    "id": 148,
+    "name": "Z-Alpha",
+    "website": "https://www.ddpharmatech.com/board/board.php?bo_table=press&idx=29",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "PMI21 (Discovery)",
+      "PMI31 (Discovery)",
+      "PMI41 (Discovery)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "https://www.ddpharmatech.com/board/board.php?bo_table=press&idx=29",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "At-211"
+    ],
+    "targets": [
+      "FAP",
+      "PSMA"
+    ],
+    "moa": "Peptide"
+  },
+  {
+    "id": 149,
+    "name": "ZA Biomedical",
+    "website": "http://www.wnlbiomed.com/zygx",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "ZA003 (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "http://www.wnlbiomed.com/zygx",
+    "region": "Aus-Asia",
+    "isotopes": [],
+    "targets": [],
+    "moa": "Peptide"
+  },
+  {
+    "id": 150,
+    "name": "ZTI Biosciences",
+    "website": "http://zti-bio.com/product-teracarrier.php?ckattempt=1",
+    "hq": null,
+    "founded": null,
+    "description": null,
+    "modality": "Radioligand Therapy (RLT)",
+    "technology": null,
+    "indication": null,
+    "stage": "Pre-clinical",
+    "funding_stage": null,
+    "total_funding_usd_m": null,
+    "last_funding_date": null,
+    "key_investors": [],
+    "pipeline": [
+      "Mag-I (Preclinical)",
+      "Mag-L (Preclinical)",
+      "Mag-A (Preclinical)"
+    ],
+    "partnerships": [],
+    "notes": null,
+    "source": "http://zti-bio.com/product-teracarrier.php?ckattempt=1",
+    "region": "Aus-Asia",
+    "isotopes": [
+      "Ac-225",
+      "I-131",
+      "Lu-177"
+    ],
+    "targets": [
+      "FR"
+    ],
+    "moa": null
   }
 ]
